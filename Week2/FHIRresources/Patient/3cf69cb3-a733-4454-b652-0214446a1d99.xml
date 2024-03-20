@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="3cf69cb3-a733-4454-b652-0214446a1d99"/>
+    <identifier>
+        <use value="official"/>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="NNCOL"/>
+                <display value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
+            </coding>
+        </type>
+        <system value="urn:oid:2.16.170.3.899999040.1.4"/>
+        <value value="918273645"/>
+    </identifier>
+    <identifier>
+        <use value="usual"/>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="MR"/>
+                <display value="Medical record number"/>
+            </coding>
+        </type>
+        <system value="urn:oid:2.16.170.1.2.2.900474727.2.1.110011864201"/>
+        <value value="918273645"/>
+    </identifier>
+    <active value="true"/>
+    <name>
+        <family>
+            <extension id="humanname-fathers-family" url="http://hl7.org/fhir/StructureDefinition/humanname-fathers-family">
+                <valueString value="Ramírez"/>
+            </extension>
+            <extension id="humanname-mothers-family" url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+                <valueString value="Méndez"/>
+            </extension>
+        </family>
+        <given value="Laura"/>
+        <given value="Fernando"/>
+    </name>
+    <telecom>
+        <system value="phone"/>
+        <value value="+57(600)999-9999"/>
+        <use value="home"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="+57(300)999-9999"/>
+        <use value="mobile"/>
+    </telecom>
+    <telecom>
+        <system value="email"/>
+        <value value="laura.ramirez@example.com"/>
+    </telecom>
+    <gender value="female"/>
+    <birthDate value="1963-06-12"/>
+    <deceasedBoolean value="false"/>
+    <address>
+        <text value="Calle 1 # 109 - 66"/>
+        <city value="Bogotá D.C."/>
+        <district value="Usaquen"/>
+        <state value="Bogotá D.C."/>
+        <postalCode value="110000"/>
+        <country value="CO"/>
+    </address>
+    <maritalStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="D"/>
+            <display value="Divorced"/>
+        </coding>
+    </maritalStatus>
+</Patient>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patient xmlns="http://hl7.org/fhir">
+    <id value="084e1872-a9ad-4ce3-9371-0bc837d3e061"/>
+    <identifier>
+        <use value="official"/>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="NNCOL"/>
+                <display value="National Person Identifier where the xxx is the ISO table 3166 3-character (alphabetic) country code"/>
+            </coding>
+        </type>
+        <system value="urn:oid:2.16.170.3.899999040.1.3"/>
+        <value value="2005042300160"/>
+    </identifier>
+    <identifier>
+        <use value="usual"/>
+        <type>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/v2-0203"/>
+                <code value="MR"/>
+                <display value="Medical record number"/>
+            </coding>
+        </type>
+        <system value="urn:oid:2.16.170.1.2.2.900474727.2.1.110011864201"/>
+        <value value="2005042300160"/>
+    </identifier>
+    <active value="true"/>
+    <name>
+        <family>
+            <extension id="humanname-fathers-family" url="http://hl7.org/fhir/StructureDefinition/humanname-fathers-family">
+                <valueString value="Palacios"/>
+            </extension>
+            <extension id="humanname-mothers-family" url="http://hl7.org/fhir/StructureDefinition/humanname-mothers-family">
+                <valueString value="Camargo"/>
+            </extension>
+        </family>
+        <given value="Pedro"/>
+        <given value="Alberto"/>
+    </name>
+    <telecom>
+        <system value="phone"/>
+        <value value="+57(600)333-3333"/>
+        <use value="home"/>
+    </telecom>
+    <telecom>
+        <system value="phone"/>
+        <value value="+57(300)333-3333"/>
+        <use value="mobile"/>
+    </telecom>
+    <telecom>
+        <system value="email"/>
+        <value value="pedro.palacios@example.com"/>
+    </telecom>
+    <gender value="male"/>
+    <birthDate value="2005-04-23"/>
+    <deceasedBoolean value="false"/>
+    <address>
+        <text value="Calle 1 # 102 - 102"/>
+        <city value="Bogotá D.C."/>
+        <district value="Usaquen"/>
+        <state value="Bogotá D.C."/>
+        <postalCode value="110000"/>
+        <country value="CO"/>
+    </address>
+    <maritalStatus>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus"/>
+            <code value="S"/>
+            <display value="Never Married"/>
+        </coding>
+    </maritalStatus>
+</Patient>

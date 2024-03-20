@@ -1,0 +1,95 @@
+{
+	"resourceType": "Patient",
+	"id": "6528253f-f514-4053-b20b-bc59eb31482b",
+	"identifier": [
+		{
+			"use": "official",
+			"type": {
+				"coding": [
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "PPN",
+						"display": "Passport number"
+					}
+				]
+			},
+			"system": "urn:oid:2.16.170.1.2.2.899999042.1.1",
+			"value": "AO123456"
+		},
+		{
+			"use": "usual",
+			"type": {
+				"coding": [
+					{
+						"system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+						"code": "MR",
+						"display": "Medical record number"
+					}
+				]
+			},
+			"system": "urn:oid:2.16.170.1.2.2.900474727.2.1.110011864201",
+			"value": "AO123456"
+		}
+	],
+	"active": true,
+	"name": [
+		{
+			"_family": {
+				"extension": [
+					{
+						"id": "humanname-fathers-family",
+						"url": "http://hl7.org/fhir/StructureDefinition/humanname-fathers-family",
+						"valueString": "Pérez"
+					},
+					{
+						"id": "humanname-mothers-family",
+						"url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+						"valueString": "Prado"
+					}
+				]
+			},
+			"given": [
+				"Clara",
+				"Eugenia"
+			]
+		}
+	],
+	"telecom": [
+		{
+			"system": "phone",
+			"value": "+57(600)777-7777",
+			"use": "home"
+		},
+		{
+			"system": "phone",
+			"value": "+57(300)777-7777",
+			"use": "mobile"
+		},
+		{
+			"system": "email",
+			"value": "clara.perez@example.com"
+		}
+	],
+	"gender": "female",
+	"birthDate": "1973-12-16",
+	"deceasedBoolean": false,
+	"address": [
+		{
+			"text": "Calle 1 # 107 - 108",
+			"city": "Bogotá D.C.",
+			"district": "Usaquen",
+			"state": "Bogotá D.C.",
+			"postalCode": "110000",
+			"country": "CO"
+		}
+	],
+	"maritalStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+				"code": "W",
+				"display": "Widowed"
+			}
+		]
+	}
+}
