@@ -1,0 +1,114 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "ColombianPopulationGroup",
+  "id": "ColombianPopulationGroup",
+  "title": "CodeSystem: Colombian Population Group",
+  "description": "Code system for population groups in Colombia.\r\n\r\n[ES: Sistema de códificación de grupos poblacionales en Colombia.]",
+  "version": "4.0.1",
+  "url": http://fhir.example.com/CodeSystem/ColombianPopulationGroup",
+  "concept": [
+    {
+      "code": "GP_DISCAPA",
+      "display": "Grupo Poblacional - Discapacitados"
+    },
+    {
+      "code": "GP_DESPLAZ",
+      "display": "Grupo Poblacional - Desplazados"
+    },
+    {
+      "code": "GP_MIGRANT",
+      "display": "Grupo Poblacional - Migrantes"
+    },
+    {
+      "code": "GP_CARCELA",
+      "display": "Grupo Poblacional - Carcelarios"
+    },
+    {
+      "code": "GP_GESTAN",
+      "display": "Grupo Poblacional - Gestantes"
+    },
+    {
+      "code": "GP_INDIGEN",
+      "display": "Grupo Poblacional - Indigentes"
+    },
+    {
+      "code": "GP_POBICBF",
+      "display": "Grupo Poblacional - Población infantil a cargo del ICBF"
+    },
+    {
+      "code": "GP_MAD_COM",
+      "display": "Grupo Poblacional - Madres Comunitarias"
+    },
+    {
+      "code": "GP_DESMOVI",
+      "display": "Grupo Poblacional - Desmovilizados"
+    },
+    {
+      "code": "GP_PSIQUIA",
+      "display": "Grupo Poblacional - Población en centros psiquiátricos"
+    },
+    {
+      "code": "GP_VIC_VIO",
+      "display": "Grupo Poblacional - Víctima de violencia armada"
+    },
+    {
+      "code": "GP_OTROS",
+      "display": "Grupo Poblacional - Otros"
+    }
+  ],
+  "experimental": false,
+  "date": "2023-07-30",
+  "publisher": "INS",
+  "contact": [
+    {
+      "name": "Instituto Nacional de Salud (INS)",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.ins.gov.co"
+        },
+        {
+          "system": "phone",
+          "value": "+57(601) 220-7700"
+        },
+        {
+          "system": "email",
+          "value": "contactenos@ins.gov.co"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Colombia",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7co.org/"
+        },
+        {
+          "system": "phone",
+          "value": "+57(320) 230-6178 "
+        },
+        {
+          "system": "email",
+          "value": "info@hl7co.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CO",
+          "system": "urn:iso:std:iso:3166:-2",
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "purpose": "This code system is used as a nomenclature of special population groups in Colombia (taken from the SIVIGILA registry structure).\r\n\r\n[ES: Este sistema de codificación se utiliza como nomenclador de grupos de población especial en Colombia (tomado de la estructura de registros de SIVIGILA).]",
+  "copyright": "INS, CCBY4.0 2006+",
+  "count": 12
+}

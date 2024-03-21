@@ -1,0 +1,4554 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DivipolaMunicipalities",
+  "id": "divipola-municipalities",
+  "title": "ValueSet: DIVIPOLA Municipalities",
+  "description": "Set of coded values for municipalities in Colombia, according to the DIVIPOLA code system. [ES: Conjunto de valores codificados para los municipios de Colombia, según la codificación DIVIPOLA.]",
+  "url": "http://fhir.example.com/ValueSet/DivipolaMunicipalities",
+  "version": "4.0.1",
+  "date": "2023-07-30",
+  "publisher": "DANE",
+  "contact": [
+    {
+      "name": "Departamento Administrativo Nacional de Estadística (DANE)",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.dane.gov.co/files/sen/nomenclatura/ciuo/CIUO_88A_C_2006.pdf"
+        },
+        {
+          "system": "phone",
+          "value": "+57(601) 597-8300"
+        },
+        {
+          "system": "phone",
+          "value": "+57(601) 597-8398"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Colombia",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7co.org/"
+        },
+        {
+          "system": "phone",
+          "value": "+57(320) 230-6178 "
+        },
+        {
+          "system": "email",
+          "value": "info@hl7co.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CO",
+          "system": "urn:iso:std:iso:3166:-2",
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "purpose": "This set of values of the DIVIPOLA code system contains the nomenclators of municipalities (territorial entities) within the jurisdiction of Colombia, used in the *FHIR Extensions* associated with the *Address* data type.\r\n\r\n[ES: Este conjunto de valores del sistema de codificación DIVIPOLA contiene los nomencladores de municipios (entidades territoriales) dentro de la jurisdicción de Colombia, utilizado en las *Extensiones FHIR* asociadas con el tipo de dato *Address*.]",
+  "copyright": "DANE, CCBY4.0 1967+",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.example.com/CodeSystem/DIVIPOLA",
+        "concept": [
+          {
+            "code": "05001",
+            "display": "MEDELLÍN"
+          },
+          {
+            "code": "05002",
+            "display": "ABEJORRAL"
+          },
+          {
+            "code": "05004",
+            "display": "ABRIAQUÍ"
+          },
+          {
+            "code": "05021",
+            "display": "ALEJANDRÍA"
+          },
+          {
+            "code": "05030",
+            "display": "AMAGÁ"
+          },
+          {
+            "code": "05031",
+            "display": "AMALFI"
+          },
+          {
+            "code": "05034",
+            "display": "ANDES"
+          },
+          {
+            "code": "05036",
+            "display": "ANGELÓPOLIS"
+          },
+          {
+            "code": "05038",
+            "display": "ANGOSTURA"
+          },
+          {
+            "code": "05040",
+            "display": "ANORÍ"
+          },
+          {
+            "code": "05042",
+            "display": "SANTA FÉ DE ANTIOQUIA"
+          },
+          {
+            "code": "05044",
+            "display": "ANZÁ"
+          },
+          {
+            "code": "05045",
+            "display": "APARTADÓ"
+          },
+          {
+            "code": "05051",
+            "display": "ARBOLETES"
+          },
+          {
+            "code": "05055",
+            "display": "ARGELIA"
+          },
+          {
+            "code": "05059",
+            "display": "ARMENIA"
+          },
+          {
+            "code": "05079",
+            "display": "BARBOSA"
+          },
+          {
+            "code": "05086",
+            "display": "BELMIRA"
+          },
+          {
+            "code": "05088",
+            "display": "BELLO"
+          },
+          {
+            "code": "05091",
+            "display": "BETANIA"
+          },
+          {
+            "code": "05093",
+            "display": "BETULIA"
+          },
+          {
+            "code": "05101",
+            "display": "CIUDAD BOLÍVAR"
+          },
+          {
+            "code": "05107",
+            "display": "BRICEÑO"
+          },
+          {
+            "code": "05113",
+            "display": "BURITICÁ"
+          },
+          {
+            "code": "05120",
+            "display": "CÁCERES"
+          },
+          {
+            "code": "05125",
+            "display": "CAICEDO"
+          },
+          {
+            "code": "05129",
+            "display": "CALDAS"
+          },
+          {
+            "code": "05134",
+            "display": "CAMPAMENTO"
+          },
+          {
+            "code": "05138",
+            "display": "CAÑASGORDAS"
+          },
+          {
+            "code": "05142",
+            "display": "CARACOLÍ"
+          },
+          {
+            "code": "05145",
+            "display": "CARAMANTA"
+          },
+          {
+            "code": "05147",
+            "display": "CAREPA"
+          },
+          {
+            "code": "05148",
+            "display": "EL CARMEN DE VIBORAL"
+          },
+          {
+            "code": "05150",
+            "display": "CAROLINA"
+          },
+          {
+            "code": "05154",
+            "display": "CAUCASIA"
+          },
+          {
+            "code": "05172",
+            "display": "CHIGORODÓ"
+          },
+          {
+            "code": "05190",
+            "display": "CISNEROS"
+          },
+          {
+            "code": "05197",
+            "display": "COCORNÁ"
+          },
+          {
+            "code": "05206",
+            "display": "CONCEPCIÓN"
+          },
+          {
+            "code": "05209",
+            "display": "CONCORDIA"
+          },
+          {
+            "code": "05212",
+            "display": "COPACABANA"
+          },
+          {
+            "code": "05234",
+            "display": "DABEIBA"
+          },
+          {
+            "code": "05237",
+            "display": "DONMATÍAS"
+          },
+          {
+            "code": "05240",
+            "display": "EBÉJICO"
+          },
+          {
+            "code": "05250",
+            "display": "EL BAGRE"
+          },
+          {
+            "code": "05264",
+            "display": "ENTRERRÍOS"
+          },
+          {
+            "code": "05266",
+            "display": "ENVIGADO"
+          },
+          {
+            "code": "05282",
+            "display": "FREDONIA"
+          },
+          {
+            "code": "05284",
+            "display": "FRONTINO"
+          },
+          {
+            "code": "05306",
+            "display": "GIRALDO"
+          },
+          {
+            "code": "05308",
+            "display": "GIRARDOTA"
+          },
+          {
+            "code": "05310",
+            "display": "GÓMEZ PLATA"
+          },
+          {
+            "code": "05313",
+            "display": "GRANADA"
+          },
+          {
+            "code": "05315",
+            "display": "GUADALUPE"
+          },
+          {
+            "code": "05318",
+            "display": "GUARNE"
+          },
+          {
+            "code": "05321",
+            "display": "GUATAPÉ"
+          },
+          {
+            "code": "05347",
+            "display": "HELICONIA"
+          },
+          {
+            "code": "05353",
+            "display": "HISPANIA"
+          },
+          {
+            "code": "05360",
+            "display": "ITAGÜÍ"
+          },
+          {
+            "code": "05361",
+            "display": "ITUANGO"
+          },
+          {
+            "code": "05364",
+            "display": "JARDÍN"
+          },
+          {
+            "code": "05368",
+            "display": "JERICÓ"
+          },
+          {
+            "code": "05376",
+            "display": "LA CEJA"
+          },
+          {
+            "code": "05380",
+            "display": "LA ESTRELLA"
+          },
+          {
+            "code": "05390",
+            "display": "LA PINTADA"
+          },
+          {
+            "code": "05400",
+            "display": "LA UNIÓN"
+          },
+          {
+            "code": "05411",
+            "display": "LIBORINA"
+          },
+          {
+            "code": "05425",
+            "display": "MACEO"
+          },
+          {
+            "code": "05440",
+            "display": "MARINILLA"
+          },
+          {
+            "code": "05467",
+            "display": "MONTEBELLO"
+          },
+          {
+            "code": "05475",
+            "display": "MURINDÓ"
+          },
+          {
+            "code": "05480",
+            "display": "MUTATÁ"
+          },
+          {
+            "code": "05483",
+            "display": "NARIÑO"
+          },
+          {
+            "code": "05490",
+            "display": "NECOCLÍ"
+          },
+          {
+            "code": "05495",
+            "display": "NECHÍ"
+          },
+          {
+            "code": "05501",
+            "display": "OLAYA"
+          },
+          {
+            "code": "05541",
+            "display": "PEÑOL"
+          },
+          {
+            "code": "05543",
+            "display": "PEQUE"
+          },
+          {
+            "code": "05576",
+            "display": "PUEBLORRICO"
+          },
+          {
+            "code": "05579",
+            "display": "PUERTO BERRÍO"
+          },
+          {
+            "code": "05585",
+            "display": "PUERTO NARE"
+          },
+          {
+            "code": "05591",
+            "display": "PUERTO TRIUNFO"
+          },
+          {
+            "code": "05604",
+            "display": "REMEDIOS"
+          },
+          {
+            "code": "05607",
+            "display": "RETIRO"
+          },
+          {
+            "code": "05615",
+            "display": "RIONEGRO"
+          },
+          {
+            "code": "05628",
+            "display": "SABANALARGA"
+          },
+          {
+            "code": "05631",
+            "display": "SABANETA"
+          },
+          {
+            "code": "05642",
+            "display": "SALGAR"
+          },
+          {
+            "code": "05647",
+            "display": "SAN ANDRÉS DE CUERQUÍA"
+          },
+          {
+            "code": "05649",
+            "display": "SAN CARLOS"
+          },
+          {
+            "code": "05652",
+            "display": "SAN FRANCISCO"
+          },
+          {
+            "code": "05656",
+            "display": "SAN JERÓNIMO"
+          },
+          {
+            "code": "05658",
+            "display": "SAN JOSÉ DE LA MONTAÑA"
+          },
+          {
+            "code": "05659",
+            "display": "SAN JUAN DE URABÁ"
+          },
+          {
+            "code": "05660",
+            "display": "SAN LUIS"
+          },
+          {
+            "code": "05664",
+            "display": "SAN PEDRO DE LOS MILAGROS"
+          },
+          {
+            "code": "05665",
+            "display": "SAN PEDRO DE URABÁ"
+          },
+          {
+            "code": "05667",
+            "display": "SAN RAFAEL"
+          },
+          {
+            "code": "05670",
+            "display": "SAN ROQUE"
+          },
+          {
+            "code": "05674",
+            "display": "SAN VICENTE FERRER"
+          },
+          {
+            "code": "05679",
+            "display": "SANTA BÁRBARA"
+          },
+          {
+            "code": "05686",
+            "display": "SANTA ROSA DE OSOS"
+          },
+          {
+            "code": "05690",
+            "display": "SANTO DOMINGO"
+          },
+          {
+            "code": "05697",
+            "display": "EL SANTUARIO"
+          },
+          {
+            "code": "05736",
+            "display": "SEGOVIA"
+          },
+          {
+            "code": "05756",
+            "display": "SONSÓN"
+          },
+          {
+            "code": "05761",
+            "display": "SOPETRÁN"
+          },
+          {
+            "code": "05789",
+            "display": "TÁMESIS"
+          },
+          {
+            "code": "05790",
+            "display": "TARAZÁ"
+          },
+          {
+            "code": "05792",
+            "display": "TARSO"
+          },
+          {
+            "code": "05809",
+            "display": "TITIRIBÍ"
+          },
+          {
+            "code": "05819",
+            "display": "TOLEDO"
+          },
+          {
+            "code": "05837",
+            "display": "TURBO"
+          },
+          {
+            "code": "05842",
+            "display": "URAMITA"
+          },
+          {
+            "code": "05847",
+            "display": "URRAO"
+          },
+          {
+            "code": "05854",
+            "display": "VALDIVIA"
+          },
+          {
+            "code": "05856",
+            "display": "VALPARAÍSO"
+          },
+          {
+            "code": "05858",
+            "display": "VEGACHÍ"
+          },
+          {
+            "code": "05861",
+            "display": "VENECIA"
+          },
+          {
+            "code": "05873",
+            "display": "VIGÍA DEL FUERTE"
+          },
+          {
+            "code": "05885",
+            "display": "YALÍ"
+          },
+          {
+            "code": "05887",
+            "display": "YARUMAL"
+          },
+          {
+            "code": "05890",
+            "display": "YOLOMBÓ"
+          },
+          {
+            "code": "05893",
+            "display": "YONDÓ"
+          },
+          {
+            "code": "05895",
+            "display": "ZARAGOZA"
+          },
+          {
+            "code": "08001",
+            "display": "BARRANQUILLA"
+          },
+          {
+            "code": "08078",
+            "display": "BARANOA"
+          },
+          {
+            "code": "08137",
+            "display": "CAMPO DE LA CRUZ"
+          },
+          {
+            "code": "08141",
+            "display": "CANDELARIA"
+          },
+          {
+            "code": "08296",
+            "display": "GALAPA"
+          },
+          {
+            "code": "08372",
+            "display": "JUAN DE ACOSTA"
+          },
+          {
+            "code": "08421",
+            "display": "LURUACO"
+          },
+          {
+            "code": "08433",
+            "display": "MALAMBO"
+          },
+          {
+            "code": "08436",
+            "display": "MANATÍ"
+          },
+          {
+            "code": "08520",
+            "display": "PALMAR DE VARELA"
+          },
+          {
+            "code": "08549",
+            "display": "PIOJÓ"
+          },
+          {
+            "code": "08558",
+            "display": "POLONUEVO"
+          },
+          {
+            "code": "08560",
+            "display": "PONEDERA"
+          },
+          {
+            "code": "08573",
+            "display": "PUERTO COLOMBIA"
+          },
+          {
+            "code": "08606",
+            "display": "REPELÓN"
+          },
+          {
+            "code": "08634",
+            "display": "SABANAGRANDE"
+          },
+          {
+            "code": "08638",
+            "display": "SABANALARGA"
+          },
+          {
+            "code": "08675",
+            "display": "SANTA LUCÍA"
+          },
+          {
+            "code": "08685",
+            "display": "SANTO TOMÁS"
+          },
+          {
+            "code": "08758",
+            "display": "SOLEDAD"
+          },
+          {
+            "code": "08770",
+            "display": "SUAN"
+          },
+          {
+            "code": "08832",
+            "display": "TUBARÁ"
+          },
+          {
+            "code": "08849",
+            "display": "USIACURÍ"
+          },
+          {
+            "code": "11001",
+            "display": "BOGOTÁ, D.C."
+          },
+          {
+            "code": "13001",
+            "display": "CARTAGENA DE INDIAS"
+          },
+          {
+            "code": "13006",
+            "display": "ACHÍ"
+          },
+          {
+            "code": "13030",
+            "display": "ALTOS DEL ROSARIO"
+          },
+          {
+            "code": "13042",
+            "display": "ARENAL"
+          },
+          {
+            "code": "13052",
+            "display": "ARJONA"
+          },
+          {
+            "code": "13062",
+            "display": "ARROYOHONDO"
+          },
+          {
+            "code": "13074",
+            "display": "BARRANCO DE LOBA"
+          },
+          {
+            "code": "13140",
+            "display": "CALAMAR"
+          },
+          {
+            "code": "13160",
+            "display": "CANTAGALLO"
+          },
+          {
+            "code": "13188",
+            "display": "CICUCO"
+          },
+          {
+            "code": "13212",
+            "display": "CÓRDOBA"
+          },
+          {
+            "code": "13222",
+            "display": "CLEMENCIA"
+          },
+          {
+            "code": "13244",
+            "display": "EL CARMEN DE BOLÍVAR"
+          },
+          {
+            "code": "13248",
+            "display": "EL GUAMO"
+          },
+          {
+            "code": "13268",
+            "display": "EL PEÑÓN"
+          },
+          {
+            "code": "13300",
+            "display": "HATILLO DE LOBA"
+          },
+          {
+            "code": "13430",
+            "display": "MAGANGUÉ"
+          },
+          {
+            "code": "13433",
+            "display": "MAHATES"
+          },
+          {
+            "code": "13440",
+            "display": "MARGARITA"
+          },
+          {
+            "code": "13442",
+            "display": "MARÍA LA BAJA"
+          },
+          {
+            "code": "13458",
+            "display": "MONTECRISTO"
+          },
+          {
+            "code": "13468",
+            "display": "SANTA CRUZ DE MOMPOX"
+          },
+          {
+            "code": "13473",
+            "display": "MORALES"
+          },
+          {
+            "code": "13490",
+            "display": "NOROSÍ"
+          },
+          {
+            "code": "13549",
+            "display": "PINILLOS"
+          },
+          {
+            "code": "13580",
+            "display": "REGIDOR"
+          },
+          {
+            "code": "13600",
+            "display": "RÍO VIEJO"
+          },
+          {
+            "code": "13620",
+            "display": "SAN CRISTÓBAL"
+          },
+          {
+            "code": "13647",
+            "display": "SAN ESTANISLAO"
+          },
+          {
+            "code": "13650",
+            "display": "SAN FERNANDO"
+          },
+          {
+            "code": "13654",
+            "display": "SAN JACINTO"
+          },
+          {
+            "code": "13655",
+            "display": "SAN JACINTO DEL CAUCA"
+          },
+          {
+            "code": "13657",
+            "display": "SAN JUAN NEPOMUCENO"
+          },
+          {
+            "code": "13667",
+            "display": "SAN MARTÍN DE LOBA"
+          },
+          {
+            "code": "13670",
+            "display": "SAN PABLO"
+          },
+          {
+            "code": "13673",
+            "display": "SANTA CATALINA"
+          },
+          {
+            "code": "13683",
+            "display": "SANTA ROSA"
+          },
+          {
+            "code": "13688",
+            "display": "SANTA ROSA DEL SUR"
+          },
+          {
+            "code": "13744",
+            "display": "SIMITÍ"
+          },
+          {
+            "code": "13760",
+            "display": "SOPLAVIENTO"
+          },
+          {
+            "code": "13780",
+            "display": "TALAIGUA NUEVO"
+          },
+          {
+            "code": "13810",
+            "display": "TIQUISIO"
+          },
+          {
+            "code": "13836",
+            "display": "TURBACO"
+          },
+          {
+            "code": "13838",
+            "display": "TURBANA"
+          },
+          {
+            "code": "13873",
+            "display": "VILLANUEVA"
+          },
+          {
+            "code": "13894",
+            "display": "ZAMBRANO"
+          },
+          {
+            "code": "15001",
+            "display": "TUNJA"
+          },
+          {
+            "code": "15022",
+            "display": "ALMEIDA"
+          },
+          {
+            "code": "15047",
+            "display": "AQUITANIA"
+          },
+          {
+            "code": "15051",
+            "display": "ARCABUCO"
+          },
+          {
+            "code": "15087",
+            "display": "BELÉN"
+          },
+          {
+            "code": "15090",
+            "display": "BERBEO"
+          },
+          {
+            "code": "15092",
+            "display": "BETÉITIVA"
+          },
+          {
+            "code": "15097",
+            "display": "BOAVITA"
+          },
+          {
+            "code": "15104",
+            "display": "BOYACÁ"
+          },
+          {
+            "code": "15106",
+            "display": "BRICEÑO"
+          },
+          {
+            "code": "15109",
+            "display": "BUENAVISTA"
+          },
+          {
+            "code": "15114",
+            "display": "BUSBANZÁ"
+          },
+          {
+            "code": "15131",
+            "display": "CALDAS"
+          },
+          {
+            "code": "15135",
+            "display": "CAMPOHERMOSO"
+          },
+          {
+            "code": "15162",
+            "display": "CERINZA"
+          },
+          {
+            "code": "15172",
+            "display": "CHINAVITA"
+          },
+          {
+            "code": "15176",
+            "display": "CHIQUINQUIRÁ"
+          },
+          {
+            "code": "15180",
+            "display": "CHISCAS"
+          },
+          {
+            "code": "15183",
+            "display": "CHITA"
+          },
+          {
+            "code": "15185",
+            "display": "CHITARAQUE"
+          },
+          {
+            "code": "15187",
+            "display": "CHIVATÁ"
+          },
+          {
+            "code": "15189",
+            "display": "CIÉNEGA"
+          },
+          {
+            "code": "15204",
+            "display": "CÓMBITA"
+          },
+          {
+            "code": "15212",
+            "display": "COPER"
+          },
+          {
+            "code": "15215",
+            "display": "CORRALES"
+          },
+          {
+            "code": "15218",
+            "display": "COVARACHÍA"
+          },
+          {
+            "code": "15223",
+            "display": "CUBARÁ"
+          },
+          {
+            "code": "15224",
+            "display": "CUCAITA"
+          },
+          {
+            "code": "15226",
+            "display": "CUÍTIVA"
+          },
+          {
+            "code": "15232",
+            "display": "CHÍQUIZA"
+          },
+          {
+            "code": "15236",
+            "display": "CHIVOR"
+          },
+          {
+            "code": "15238",
+            "display": "DUITAMA"
+          },
+          {
+            "code": "15244",
+            "display": "EL COCUY"
+          },
+          {
+            "code": "15248",
+            "display": "EL ESPINO"
+          },
+          {
+            "code": "15272",
+            "display": "FIRAVITOBA"
+          },
+          {
+            "code": "15276",
+            "display": "FLORESTA"
+          },
+          {
+            "code": "15293",
+            "display": "GACHANTIVÁ"
+          },
+          {
+            "code": "15296",
+            "display": "GÁMEZA"
+          },
+          {
+            "code": "15299",
+            "display": "GARAGOA"
+          },
+          {
+            "code": "15317",
+            "display": "GUACAMAYAS"
+          },
+          {
+            "code": "15322",
+            "display": "GUATEQUE"
+          },
+          {
+            "code": "15325",
+            "display": "GUAYATÁ"
+          },
+          {
+            "code": "15332",
+            "display": "GÜICÁN DE LA SIERRA"
+          },
+          {
+            "code": "15362",
+            "display": "IZA"
+          },
+          {
+            "code": "15367",
+            "display": "JENESANO"
+          },
+          {
+            "code": "15368",
+            "display": "JERICÓ"
+          },
+          {
+            "code": "15377",
+            "display": "LABRANZAGRANDE"
+          },
+          {
+            "code": "15380",
+            "display": "LA CAPILLA"
+          },
+          {
+            "code": "15401",
+            "display": "LA VICTORIA"
+          },
+          {
+            "code": "15403",
+            "display": "LA UVITA"
+          },
+          {
+            "code": "15407",
+            "display": "VILLA DE LEYVA"
+          },
+          {
+            "code": "15425",
+            "display": "MACANAL"
+          },
+          {
+            "code": "15442",
+            "display": "MARIPÍ"
+          },
+          {
+            "code": "15455",
+            "display": "MIRAFLORES"
+          },
+          {
+            "code": "15464",
+            "display": "MONGUA"
+          },
+          {
+            "code": "15466",
+            "display": "MONGUÍ"
+          },
+          {
+            "code": "15469",
+            "display": "MONIQUIRÁ"
+          },
+          {
+            "code": "15476",
+            "display": "MOTAVITA"
+          },
+          {
+            "code": "15480",
+            "display": "MUZO"
+          },
+          {
+            "code": "15491",
+            "display": "NOBSA"
+          },
+          {
+            "code": "15494",
+            "display": "NUEVO COLÓN"
+          },
+          {
+            "code": "15500",
+            "display": "OICATÁ"
+          },
+          {
+            "code": "15507",
+            "display": "OTANCHE"
+          },
+          {
+            "code": "15511",
+            "display": "PACHAVITA"
+          },
+          {
+            "code": "15514",
+            "display": "PÁEZ"
+          },
+          {
+            "code": "15516",
+            "display": "PAIPA"
+          },
+          {
+            "code": "15518",
+            "display": "PAJARITO"
+          },
+          {
+            "code": "15522",
+            "display": "PANQUEBA"
+          },
+          {
+            "code": "15531",
+            "display": "PAUNA"
+          },
+          {
+            "code": "15533",
+            "display": "PAYA"
+          },
+          {
+            "code": "15537",
+            "display": "PAZ DE RÍO"
+          },
+          {
+            "code": "15542",
+            "display": "PESCA"
+          },
+          {
+            "code": "15550",
+            "display": "PISBA"
+          },
+          {
+            "code": "15572",
+            "display": "PUERTO BOYACÁ"
+          },
+          {
+            "code": "15580",
+            "display": "QUÍPAMA"
+          },
+          {
+            "code": "15599",
+            "display": "RAMIRIQUÍ"
+          },
+          {
+            "code": "15600",
+            "display": "RÁQUIRA"
+          },
+          {
+            "code": "15621",
+            "display": "RONDÓN"
+          },
+          {
+            "code": "15632",
+            "display": "SABOYÁ"
+          },
+          {
+            "code": "15638",
+            "display": "SÁCHICA"
+          },
+          {
+            "code": "15646",
+            "display": "SAMACÁ"
+          },
+          {
+            "code": "15660",
+            "display": "SAN EDUARDO"
+          },
+          {
+            "code": "15664",
+            "display": "SAN JOSÉ DE PARE"
+          },
+          {
+            "code": "15667",
+            "display": "SAN LUIS DE GACENO"
+          },
+          {
+            "code": "15673",
+            "display": "SAN MATEO"
+          },
+          {
+            "code": "15676",
+            "display": "SAN MIGUEL DE SEMA"
+          },
+          {
+            "code": "15681",
+            "display": "SAN PABLO DE BORBUR"
+          },
+          {
+            "code": "15686",
+            "display": "SANTANA"
+          },
+          {
+            "code": "15690",
+            "display": "SANTA MARÍA"
+          },
+          {
+            "code": "15693",
+            "display": "SANTA ROSA DE VITERBO"
+          },
+          {
+            "code": "15696",
+            "display": "SANTA SOFÍA"
+          },
+          {
+            "code": "15720",
+            "display": "SATIVANORTE"
+          },
+          {
+            "code": "15723",
+            "display": "SATIVASUR"
+          },
+          {
+            "code": "15740",
+            "display": "SIACHOQUE"
+          },
+          {
+            "code": "15753",
+            "display": "SOATÁ"
+          },
+          {
+            "code": "15755",
+            "display": "SOCOTÁ"
+          },
+          {
+            "code": "15757",
+            "display": "SOCHA"
+          },
+          {
+            "code": "15759",
+            "display": "SOGAMOSO"
+          },
+          {
+            "code": "15761",
+            "display": "SOMONDOCO"
+          },
+          {
+            "code": "15762",
+            "display": "SORA"
+          },
+          {
+            "code": "15763",
+            "display": "SOTAQUIRÁ"
+          },
+          {
+            "code": "15764",
+            "display": "SORACÁ"
+          },
+          {
+            "code": "15774",
+            "display": "SUSACÓN"
+          },
+          {
+            "code": "15776",
+            "display": "SUTAMARCHÁN"
+          },
+          {
+            "code": "15778",
+            "display": "SUTATENZA"
+          },
+          {
+            "code": "15790",
+            "display": "TASCO"
+          },
+          {
+            "code": "15798",
+            "display": "TENZA"
+          },
+          {
+            "code": "15804",
+            "display": "TIBANÁ"
+          },
+          {
+            "code": "15806",
+            "display": "TIBASOSA"
+          },
+          {
+            "code": "15808",
+            "display": "TINJACÁ"
+          },
+          {
+            "code": "15810",
+            "display": "TIPACOQUE"
+          },
+          {
+            "code": "15814",
+            "display": "TOCA"
+          },
+          {
+            "code": "15816",
+            "display": "TOGÜÍ"
+          },
+          {
+            "code": "15820",
+            "display": "TÓPAGA"
+          },
+          {
+            "code": "15822",
+            "display": "TOTA"
+          },
+          {
+            "code": "15832",
+            "display": "TUNUNGUÁ"
+          },
+          {
+            "code": "15835",
+            "display": "TURMEQUÉ"
+          },
+          {
+            "code": "15837",
+            "display": "TUTA"
+          },
+          {
+            "code": "15839",
+            "display": "TUTAZÁ"
+          },
+          {
+            "code": "15842",
+            "display": "ÚMBITA"
+          },
+          {
+            "code": "15861",
+            "display": "VENTAQUEMADA"
+          },
+          {
+            "code": "15879",
+            "display": "VIRACACHÁ"
+          },
+          {
+            "code": "15897",
+            "display": "ZETAQUIRA"
+          },
+          {
+            "code": "17001",
+            "display": "MANIZALES"
+          },
+          {
+            "code": "17013",
+            "display": "AGUADAS"
+          },
+          {
+            "code": "17042",
+            "display": "ANSERMA"
+          },
+          {
+            "code": "17050",
+            "display": "ARANZAZU"
+          },
+          {
+            "code": "17088",
+            "display": "BELALCÁZAR"
+          },
+          {
+            "code": "17174",
+            "display": "CHINCHINÁ"
+          },
+          {
+            "code": "17272",
+            "display": "FILADELFIA"
+          },
+          {
+            "code": "17380",
+            "display": "LA DORADA"
+          },
+          {
+            "code": "17388",
+            "display": "LA MERCED"
+          },
+          {
+            "code": "17433",
+            "display": "MANZANARES"
+          },
+          {
+            "code": "17442",
+            "display": "MARMATO"
+          },
+          {
+            "code": "17444",
+            "display": "MARQUETALIA"
+          },
+          {
+            "code": "17446",
+            "display": "MARULANDA"
+          },
+          {
+            "code": "17486",
+            "display": "NEIRA"
+          },
+          {
+            "code": "17495",
+            "display": "NORCASIA"
+          },
+          {
+            "code": "17513",
+            "display": "PÁCORA"
+          },
+          {
+            "code": "17524",
+            "display": "PALESTINA"
+          },
+          {
+            "code": "17541",
+            "display": "PENSILVANIA"
+          },
+          {
+            "code": "17614",
+            "display": "RIOSUCIO"
+          },
+          {
+            "code": "17616",
+            "display": "RISARALDA"
+          },
+          {
+            "code": "17653",
+            "display": "SALAMINA"
+          },
+          {
+            "code": "17662",
+            "display": "SAMANÁ"
+          },
+          {
+            "code": "17665",
+            "display": "SAN JOSÉ"
+          },
+          {
+            "code": "17777",
+            "display": "SUPÍA"
+          },
+          {
+            "code": "17867",
+            "display": "VICTORIA"
+          },
+          {
+            "code": "17873",
+            "display": "VILLAMARÍA"
+          },
+          {
+            "code": "17877",
+            "display": "VITERBO"
+          },
+          {
+            "code": "18001",
+            "display": "FLORENCIA"
+          },
+          {
+            "code": "18029",
+            "display": "ALBANIA"
+          },
+          {
+            "code": "18094",
+            "display": "BELÉN DE LOS ANDAQUÍES"
+          },
+          {
+            "code": "18150",
+            "display": "CARTAGENA DEL CHAIRÁ"
+          },
+          {
+            "code": "18205",
+            "display": "CURILLO"
+          },
+          {
+            "code": "18247",
+            "display": "EL DONCELLO"
+          },
+          {
+            "code": "18256",
+            "display": "EL PAUJÍL"
+          },
+          {
+            "code": "18410",
+            "display": "LA MONTAÑITA"
+          },
+          {
+            "code": "18460",
+            "display": "MILÁN"
+          },
+          {
+            "code": "18479",
+            "display": "MORELIA"
+          },
+          {
+            "code": "18592",
+            "display": "PUERTO RICO"
+          },
+          {
+            "code": "18610",
+            "display": "SAN JOSÉ DEL FRAGUA"
+          },
+          {
+            "code": "18753",
+            "display": "SAN VICENTE DEL CAGUÁN"
+          },
+          {
+            "code": "18756",
+            "display": "SOLANO"
+          },
+          {
+            "code": "18785",
+            "display": "SOLITA"
+          },
+          {
+            "code": "18860",
+            "display": "VALPARAÍSO"
+          },
+          {
+            "code": "19001",
+            "display": "POPAYÁN"
+          },
+          {
+            "code": "19022",
+            "display": "ALMAGUER"
+          },
+          {
+            "code": "19050",
+            "display": "ARGELIA"
+          },
+          {
+            "code": "19075",
+            "display": "BALBOA"
+          },
+          {
+            "code": "19100",
+            "display": "BOLÍVAR"
+          },
+          {
+            "code": "19110",
+            "display": "BUENOS AIRES"
+          },
+          {
+            "code": "19130",
+            "display": "CAJIBÍO"
+          },
+          {
+            "code": "19137",
+            "display": "CALDONO"
+          },
+          {
+            "code": "19142",
+            "display": "CALOTO"
+          },
+          {
+            "code": "19212",
+            "display": "CORINTO"
+          },
+          {
+            "code": "19256",
+            "display": "EL TAMBO"
+          },
+          {
+            "code": "19290",
+            "display": "FLORENCIA"
+          },
+          {
+            "code": "19300",
+            "display": "GUACHENÉ"
+          },
+          {
+            "code": "19318",
+            "display": "GUAPI"
+          },
+          {
+            "code": "19355",
+            "display": "INZÁ"
+          },
+          {
+            "code": "19364",
+            "display": "JAMBALÓ"
+          },
+          {
+            "code": "19392",
+            "display": "LA SIERRA"
+          },
+          {
+            "code": "19397",
+            "display": "LA VEGA"
+          },
+          {
+            "code": "19418",
+            "display": "LÓPEZ DE MICAY"
+          },
+          {
+            "code": "19450",
+            "display": "MERCADERES"
+          },
+          {
+            "code": "19455",
+            "display": "MIRANDA"
+          },
+          {
+            "code": "19473",
+            "display": "MORALES"
+          },
+          {
+            "code": "19513",
+            "display": "PADILLA"
+          },
+          {
+            "code": "19517",
+            "display": "PÁEZ"
+          },
+          {
+            "code": "19532",
+            "display": "PATÍA"
+          },
+          {
+            "code": "19533",
+            "display": "PIAMONTE"
+          },
+          {
+            "code": "19548",
+            "display": "PIENDAMÓ - TUNÍA"
+          },
+          {
+            "code": "19573",
+            "display": "PUERTO TEJADA"
+          },
+          {
+            "code": "19585",
+            "display": "PURACÉ"
+          },
+          {
+            "code": "19622",
+            "display": "ROSAS"
+          },
+          {
+            "code": "19693",
+            "display": "SAN SEBASTIÁN"
+          },
+          {
+            "code": "19698",
+            "display": "SANTANDER DE QUILICHAO"
+          },
+          {
+            "code": "19701",
+            "display": "SANTA ROSA"
+          },
+          {
+            "code": "19743",
+            "display": "SILVIA"
+          },
+          {
+            "code": "19760",
+            "display": "SOTARÁ PAISPAMBA"
+          },
+          {
+            "code": "19780",
+            "display": "SUÁREZ"
+          },
+          {
+            "code": "19785",
+            "display": "SUCRE"
+          },
+          {
+            "code": "19807",
+            "display": "TIMBÍO"
+          },
+          {
+            "code": "19809",
+            "display": "TIMBIQUÍ"
+          },
+          {
+            "code": "19821",
+            "display": "TORIBÍO"
+          },
+          {
+            "code": "19824",
+            "display": "TOTORÓ"
+          },
+          {
+            "code": "19845",
+            "display": "VILLA RICA"
+          },
+          {
+            "code": "20001",
+            "display": "VALLEDUPAR"
+          },
+          {
+            "code": "20011",
+            "display": "AGUACHICA"
+          },
+          {
+            "code": "20013",
+            "display": "AGUSTÍN CODAZZI"
+          },
+          {
+            "code": "20032",
+            "display": "ASTREA"
+          },
+          {
+            "code": "20045",
+            "display": "BECERRIL"
+          },
+          {
+            "code": "20060",
+            "display": "BOSCONIA"
+          },
+          {
+            "code": "20175",
+            "display": "CHIMICHAGUA"
+          },
+          {
+            "code": "20178",
+            "display": "CHIRIGUANÁ"
+          },
+          {
+            "code": "20228",
+            "display": "CURUMANÍ"
+          },
+          {
+            "code": "20238",
+            "display": "EL COPEY"
+          },
+          {
+            "code": "20250",
+            "display": "EL PASO"
+          },
+          {
+            "code": "20295",
+            "display": "GAMARRA"
+          },
+          {
+            "code": "20310",
+            "display": "GONZÁLEZ"
+          },
+          {
+            "code": "20383",
+            "display": "LA GLORIA"
+          },
+          {
+            "code": "20400",
+            "display": "LA JAGUA DE IBIRICO"
+          },
+          {
+            "code": "20443",
+            "display": "MANAURE BALCÓN DEL CESAR"
+          },
+          {
+            "code": "20517",
+            "display": "PAILITAS"
+          },
+          {
+            "code": "20550",
+            "display": "PELAYA"
+          },
+          {
+            "code": "20570",
+            "display": "PUEBLO BELLO"
+          },
+          {
+            "code": "20614",
+            "display": "RÍO DE ORO"
+          },
+          {
+            "code": "20621",
+            "display": "LA PAZ"
+          },
+          {
+            "code": "20710",
+            "display": "SAN ALBERTO"
+          },
+          {
+            "code": "20750",
+            "display": "SAN DIEGO"
+          },
+          {
+            "code": "20770",
+            "display": "SAN MARTÍN"
+          },
+          {
+            "code": "20787",
+            "display": "TAMALAMEQUE"
+          },
+          {
+            "code": "23001",
+            "display": "MONTERÍA"
+          },
+          {
+            "code": "23068",
+            "display": "AYAPEL"
+          },
+          {
+            "code": "23079",
+            "display": "BUENAVISTA"
+          },
+          {
+            "code": "23090",
+            "display": "CANALETE"
+          },
+          {
+            "code": "23162",
+            "display": "CERETÉ"
+          },
+          {
+            "code": "23168",
+            "display": "CHIMÁ"
+          },
+          {
+            "code": "23182",
+            "display": "CHINÚ"
+          },
+          {
+            "code": "23189",
+            "display": "CIÉNAGA DE ORO"
+          },
+          {
+            "code": "23300",
+            "display": "COTORRA"
+          },
+          {
+            "code": "23350",
+            "display": "LA APARTADA"
+          },
+          {
+            "code": "23417",
+            "display": "LORICA"
+          },
+          {
+            "code": "23419",
+            "display": "LOS CÓRDOBAS"
+          },
+          {
+            "code": "23464",
+            "display": "MOMIL"
+          },
+          {
+            "code": "23466",
+            "display": "MONTELÍBANO"
+          },
+          {
+            "code": "23500",
+            "display": "MOÑITOS"
+          },
+          {
+            "code": "23555",
+            "display": "PLANETA RICA"
+          },
+          {
+            "code": "23570",
+            "display": "PUEBLO NUEVO"
+          },
+          {
+            "code": "23574",
+            "display": "PUERTO ESCONDIDO"
+          },
+          {
+            "code": "23580",
+            "display": "PUERTO LIBERTADOR"
+          },
+          {
+            "code": "23586",
+            "display": "PURÍSIMA DE LA CONCEPCIÓN"
+          },
+          {
+            "code": "23660",
+            "display": "SAHAGÚN"
+          },
+          {
+            "code": "23670",
+            "display": "SAN ANDRÉS DE SOTAVENTO"
+          },
+          {
+            "code": "23672",
+            "display": "SAN ANTERO"
+          },
+          {
+            "code": "23675",
+            "display": "SAN BERNARDO DEL VIENTO"
+          },
+          {
+            "code": "23678",
+            "display": "SAN CARLOS"
+          },
+          {
+            "code": "23682",
+            "display": "SAN JOSÉ DE URÉ"
+          },
+          {
+            "code": "23686",
+            "display": "SAN PELAYO"
+          },
+          {
+            "code": "23807",
+            "display": "TIERRALTA"
+          },
+          {
+            "code": "23815",
+            "display": "TUCHÍN"
+          },
+          {
+            "code": "23855",
+            "display": "VALENCIA"
+          },
+          {
+            "code": "25001",
+            "display": "AGUA DE DIOS"
+          },
+          {
+            "code": "25019",
+            "display": "ALBÁN"
+          },
+          {
+            "code": "25035",
+            "display": "ANAPOIMA"
+          },
+          {
+            "code": "25040",
+            "display": "ANOLAIMA"
+          },
+          {
+            "code": "25053",
+            "display": "ARBELÁEZ"
+          },
+          {
+            "code": "25086",
+            "display": "BELTRÁN"
+          },
+          {
+            "code": "25095",
+            "display": "BITUIMA"
+          },
+          {
+            "code": "25099",
+            "display": "BOJACÁ"
+          },
+          {
+            "code": "25120",
+            "display": "CABRERA"
+          },
+          {
+            "code": "25123",
+            "display": "CACHIPAY"
+          },
+          {
+            "code": "25126",
+            "display": "CAJICÁ"
+          },
+          {
+            "code": "25148",
+            "display": "CAPARRAPÍ"
+          },
+          {
+            "code": "25151",
+            "display": "CÁQUEZA"
+          },
+          {
+            "code": "25154",
+            "display": "CARMEN DE CARUPA"
+          },
+          {
+            "code": "25168",
+            "display": "CHAGUANÍ"
+          },
+          {
+            "code": "25175",
+            "display": "CHÍA"
+          },
+          {
+            "code": "25178",
+            "display": "CHIPAQUE"
+          },
+          {
+            "code": "25181",
+            "display": "CHOACHÍ"
+          },
+          {
+            "code": "25183",
+            "display": "CHOCONTÁ"
+          },
+          {
+            "code": "25200",
+            "display": "COGUA"
+          },
+          {
+            "code": "25214",
+            "display": "COTA"
+          },
+          {
+            "code": "25224",
+            "display": "CUCUNUBÁ"
+          },
+          {
+            "code": "25245",
+            "display": "EL COLEGIO"
+          },
+          {
+            "code": "25258",
+            "display": "EL PEÑÓN"
+          },
+          {
+            "code": "25260",
+            "display": "EL ROSAL"
+          },
+          {
+            "code": "25269",
+            "display": "FACATATIVÁ"
+          },
+          {
+            "code": "25279",
+            "display": "FÓMEQUE"
+          },
+          {
+            "code": "25281",
+            "display": "FOSCA"
+          },
+          {
+            "code": "25286",
+            "display": "FUNZA"
+          },
+          {
+            "code": "25288",
+            "display": "FÚQUENE"
+          },
+          {
+            "code": "25290",
+            "display": "FUSAGASUGÁ"
+          },
+          {
+            "code": "25293",
+            "display": "GACHALÁ"
+          },
+          {
+            "code": "25295",
+            "display": "GACHANCIPÁ"
+          },
+          {
+            "code": "25297",
+            "display": "GACHETÁ"
+          },
+          {
+            "code": "25299",
+            "display": "GAMA"
+          },
+          {
+            "code": "25307",
+            "display": "GIRARDOT"
+          },
+          {
+            "code": "25312",
+            "display": "GRANADA"
+          },
+          {
+            "code": "25317",
+            "display": "GUACHETÁ"
+          },
+          {
+            "code": "25320",
+            "display": "GUADUAS"
+          },
+          {
+            "code": "25322",
+            "display": "GUASCA"
+          },
+          {
+            "code": "25324",
+            "display": "GUATAQUÍ"
+          },
+          {
+            "code": "25326",
+            "display": "GUATAVITA"
+          },
+          {
+            "code": "25328",
+            "display": "GUAYABAL DE SÍQUIMA"
+          },
+          {
+            "code": "25335",
+            "display": "GUAYABETAL"
+          },
+          {
+            "code": "25339",
+            "display": "GUTIÉRREZ"
+          },
+          {
+            "code": "25368",
+            "display": "JERUSALÉN"
+          },
+          {
+            "code": "25372",
+            "display": "JUNÍN"
+          },
+          {
+            "code": "25377",
+            "display": "LA CALERA"
+          },
+          {
+            "code": "25386",
+            "display": "LA MESA"
+          },
+          {
+            "code": "25394",
+            "display": "LA PALMA"
+          },
+          {
+            "code": "25398",
+            "display": "LA PEÑA"
+          },
+          {
+            "code": "25402",
+            "display": "LA VEGA"
+          },
+          {
+            "code": "25407",
+            "display": "LENGUAZAQUE"
+          },
+          {
+            "code": "25426",
+            "display": "MACHETÁ"
+          },
+          {
+            "code": "25430",
+            "display": "MADRID"
+          },
+          {
+            "code": "25436",
+            "display": "MANTA"
+          },
+          {
+            "code": "25438",
+            "display": "MEDINA"
+          },
+          {
+            "code": "25473",
+            "display": "MOSQUERA"
+          },
+          {
+            "code": "25483",
+            "display": "NARIÑO"
+          },
+          {
+            "code": "25486",
+            "display": "NEMOCÓN"
+          },
+          {
+            "code": "25488",
+            "display": "NILO"
+          },
+          {
+            "code": "25489",
+            "display": "NIMAIMA"
+          },
+          {
+            "code": "25491",
+            "display": "NOCAIMA"
+          },
+          {
+            "code": "25506",
+            "display": "VENECIA"
+          },
+          {
+            "code": "25513",
+            "display": "PACHO"
+          },
+          {
+            "code": "25518",
+            "display": "PAIME"
+          },
+          {
+            "code": "25524",
+            "display": "PANDI"
+          },
+          {
+            "code": "25530",
+            "display": "PARATEBUENO"
+          },
+          {
+            "code": "25535",
+            "display": "PASCA"
+          },
+          {
+            "code": "25572",
+            "display": "PUERTO SALGAR"
+          },
+          {
+            "code": "25580",
+            "display": "PULÍ"
+          },
+          {
+            "code": "25592",
+            "display": "QUEBRADANEGRA"
+          },
+          {
+            "code": "25594",
+            "display": "QUETAME"
+          },
+          {
+            "code": "25596",
+            "display": "QUIPILE"
+          },
+          {
+            "code": "25599",
+            "display": "APULO"
+          },
+          {
+            "code": "25612",
+            "display": "RICAURTE"
+          },
+          {
+            "code": "25645",
+            "display": "SAN ANTONIO DEL TEQUENDAMA"
+          },
+          {
+            "code": "25649",
+            "display": "SAN BERNARDO"
+          },
+          {
+            "code": "25653",
+            "display": "SAN CAYETANO"
+          },
+          {
+            "code": "25658",
+            "display": "SAN FRANCISCO"
+          },
+          {
+            "code": "25662",
+            "display": "SAN JUAN DE RIOSECO"
+          },
+          {
+            "code": "25718",
+            "display": "SASAIMA"
+          },
+          {
+            "code": "25736",
+            "display": "SESQUILÉ"
+          },
+          {
+            "code": "25740",
+            "display": "SIBATÉ"
+          },
+          {
+            "code": "25743",
+            "display": "SILVANIA"
+          },
+          {
+            "code": "25745",
+            "display": "SIMIJACA"
+          },
+          {
+            "code": "25754",
+            "display": "SOACHA"
+          },
+          {
+            "code": "25758",
+            "display": "SOPÓ"
+          },
+          {
+            "code": "25769",
+            "display": "SUBACHOQUE"
+          },
+          {
+            "code": "25772",
+            "display": "SUESCA"
+          },
+          {
+            "code": "25777",
+            "display": "SUPATÁ"
+          },
+          {
+            "code": "25779",
+            "display": "SUSA"
+          },
+          {
+            "code": "25781",
+            "display": "SUTATAUSA"
+          },
+          {
+            "code": "25785",
+            "display": "TABIO"
+          },
+          {
+            "code": "25793",
+            "display": "TAUSA"
+          },
+          {
+            "code": "25797",
+            "display": "TENA"
+          },
+          {
+            "code": "25799",
+            "display": "TENJO"
+          },
+          {
+            "code": "25805",
+            "display": "TIBACUY"
+          },
+          {
+            "code": "25807",
+            "display": "TIBIRITA"
+          },
+          {
+            "code": "25815",
+            "display": "TOCAIMA"
+          },
+          {
+            "code": "25817",
+            "display": "TOCANCIPÁ"
+          },
+          {
+            "code": "25823",
+            "display": "TOPAIPÍ"
+          },
+          {
+            "code": "25839",
+            "display": "UBALÁ"
+          },
+          {
+            "code": "25841",
+            "display": "UBAQUE"
+          },
+          {
+            "code": "25843",
+            "display": "VILLA DE SAN DIEGO DE UBATÉ"
+          },
+          {
+            "code": "25845",
+            "display": "UNE"
+          },
+          {
+            "code": "25851",
+            "display": "ÚTICA"
+          },
+          {
+            "code": "25862",
+            "display": "VERGARA"
+          },
+          {
+            "code": "25867",
+            "display": "VIANÍ"
+          },
+          {
+            "code": "25871",
+            "display": "VILLAGÓMEZ"
+          },
+          {
+            "code": "25873",
+            "display": "VILLAPINZÓN"
+          },
+          {
+            "code": "25875",
+            "display": "VILLETA"
+          },
+          {
+            "code": "25878",
+            "display": "VIOTÁ"
+          },
+          {
+            "code": "25885",
+            "display": "YACOPÍ"
+          },
+          {
+            "code": "25898",
+            "display": "ZIPACÓN"
+          },
+          {
+            "code": "25899",
+            "display": "ZIPAQUIRÁ"
+          },
+          {
+            "code": "27001",
+            "display": "QUIBDÓ"
+          },
+          {
+            "code": "27006",
+            "display": "ACANDÍ"
+          },
+          {
+            "code": "27025",
+            "display": "ALTO BAUDÓ"
+          },
+          {
+            "code": "27050",
+            "display": "ATRATO"
+          },
+          {
+            "code": "27073",
+            "display": "BAGADÓ"
+          },
+          {
+            "code": "27075",
+            "display": "BAHÍA SOLANO"
+          },
+          {
+            "code": "27077",
+            "display": "BAJO BAUDÓ"
+          },
+          {
+            "code": "27099",
+            "display": "BOJAYÁ"
+          },
+          {
+            "code": "27135",
+            "display": "EL CANTÓN DEL SAN PABLO"
+          },
+          {
+            "code": "27150",
+            "display": "CARMEN DEL DARIÉN"
+          },
+          {
+            "code": "27160",
+            "display": "CÉRTEGUI"
+          },
+          {
+            "code": "27205",
+            "display": "CONDOTO"
+          },
+          {
+            "code": "27245",
+            "display": "EL CARMEN DE ATRATO"
+          },
+          {
+            "code": "27250",
+            "display": "EL LITORAL DEL SAN JUAN"
+          },
+          {
+            "code": "27361",
+            "display": "ISTMINA"
+          },
+          {
+            "code": "27372",
+            "display": "JURADÓ"
+          },
+          {
+            "code": "27413",
+            "display": "LLORÓ"
+          },
+          {
+            "code": "27425",
+            "display": "MEDIO ATRATO"
+          },
+          {
+            "code": "27430",
+            "display": "MEDIO BAUDÓ"
+          },
+          {
+            "code": "27450",
+            "display": "MEDIO SAN JUAN"
+          },
+          {
+            "code": "27491",
+            "display": "NÓVITA"
+          },
+          {
+            "code": "27495",
+            "display": "NUQUÍ"
+          },
+          {
+            "code": "27580",
+            "display": "RÍO IRÓ"
+          },
+          {
+            "code": "27600",
+            "display": "RÍO QUITO"
+          },
+          {
+            "code": "27615",
+            "display": "RIOSUCIO"
+          },
+          {
+            "code": "27660",
+            "display": "SAN JOSÉ DEL PALMAR"
+          },
+          {
+            "code": "27745",
+            "display": "SIPÍ"
+          },
+          {
+            "code": "27787",
+            "display": "TADÓ"
+          },
+          {
+            "code": "27800",
+            "display": "UNGUÍA"
+          },
+          {
+            "code": "27810",
+            "display": "UNIÓN PANAMERICANA"
+          },
+          {
+            "code": "41001",
+            "display": "NEIVA"
+          },
+          {
+            "code": "41006",
+            "display": "ACEVEDO"
+          },
+          {
+            "code": "41013",
+            "display": "AGRADO"
+          },
+          {
+            "code": "41016",
+            "display": "AIPE"
+          },
+          {
+            "code": "41020",
+            "display": "ALGECIRAS"
+          },
+          {
+            "code": "41026",
+            "display": "ALTAMIRA"
+          },
+          {
+            "code": "41078",
+            "display": "BARAYA"
+          },
+          {
+            "code": "41132",
+            "display": "CAMPOALEGRE"
+          },
+          {
+            "code": "41206",
+            "display": "COLOMBIA"
+          },
+          {
+            "code": "41244",
+            "display": "ELÍAS"
+          },
+          {
+            "code": "41298",
+            "display": "GARZÓN"
+          },
+          {
+            "code": "41306",
+            "display": "GIGANTE"
+          },
+          {
+            "code": "41319",
+            "display": "GUADALUPE"
+          },
+          {
+            "code": "41349",
+            "display": "HOBO"
+          },
+          {
+            "code": "41357",
+            "display": "ÍQUIRA"
+          },
+          {
+            "code": "41359",
+            "display": "ISNOS"
+          },
+          {
+            "code": "41378",
+            "display": "LA ARGENTINA"
+          },
+          {
+            "code": "41396",
+            "display": "LA PLATA"
+          },
+          {
+            "code": "41483",
+            "display": "NÁTAGA"
+          },
+          {
+            "code": "41503",
+            "display": "OPORAPA"
+          },
+          {
+            "code": "41518",
+            "display": "PAICOL"
+          },
+          {
+            "code": "41524",
+            "display": "PALERMO"
+          },
+          {
+            "code": "41530",
+            "display": "PALESTINA"
+          },
+          {
+            "code": "41548",
+            "display": "PITAL"
+          },
+          {
+            "code": "41551",
+            "display": "PITALITO"
+          },
+          {
+            "code": "41615",
+            "display": "RIVERA"
+          },
+          {
+            "code": "41660",
+            "display": "SALADOBLANCO"
+          },
+          {
+            "code": "41668",
+            "display": "SAN AGUSTÍN"
+          },
+          {
+            "code": "41676",
+            "display": "SANTA MARÍA"
+          },
+          {
+            "code": "41770",
+            "display": "SUAZA"
+          },
+          {
+            "code": "41791",
+            "display": "TARQUI"
+          },
+          {
+            "code": "41797",
+            "display": "TESALIA"
+          },
+          {
+            "code": "41799",
+            "display": "TELLO"
+          },
+          {
+            "code": "41801",
+            "display": "TERUEL"
+          },
+          {
+            "code": "41807",
+            "display": "TIMANÁ"
+          },
+          {
+            "code": "41872",
+            "display": "VILLAVIEJA"
+          },
+          {
+            "code": "41885",
+            "display": "YAGUARÁ"
+          },
+          {
+            "code": "44001",
+            "display": "RIOHACHA"
+          },
+          {
+            "code": "44035",
+            "display": "ALBANIA"
+          },
+          {
+            "code": "44078",
+            "display": "BARRANCAS"
+          },
+          {
+            "code": "44090",
+            "display": "DIBULLA"
+          },
+          {
+            "code": "44098",
+            "display": "DISTRACCIÓN"
+          },
+          {
+            "code": "44110",
+            "display": "EL MOLINO"
+          },
+          {
+            "code": "44279",
+            "display": "FONSECA"
+          },
+          {
+            "code": "44378",
+            "display": "HATONUEVO"
+          },
+          {
+            "code": "44420",
+            "display": "LA JAGUA DEL PILAR"
+          },
+          {
+            "code": "44430",
+            "display": "MAICAO"
+          },
+          {
+            "code": "44560",
+            "display": "MANAURE"
+          },
+          {
+            "code": "44650",
+            "display": "SAN JUAN DEL CESAR"
+          },
+          {
+            "code": "44847",
+            "display": "URIBIA"
+          },
+          {
+            "code": "44855",
+            "display": "URUMITA"
+          },
+          {
+            "code": "44874",
+            "display": "VILLANUEVA"
+          },
+          {
+            "code": "47001",
+            "display": "SANTA MARTA"
+          },
+          {
+            "code": "47030",
+            "display": "ALGARROBO"
+          },
+          {
+            "code": "47053",
+            "display": "ARACATACA"
+          },
+          {
+            "code": "47058",
+            "display": "ARIGUANÍ"
+          },
+          {
+            "code": "47161",
+            "display": "CERRO DE SAN ANTONIO"
+          },
+          {
+            "code": "47170",
+            "display": "CHIVOLO"
+          },
+          {
+            "code": "47189",
+            "display": "CIÉNAGA"
+          },
+          {
+            "code": "47205",
+            "display": "CONCORDIA"
+          },
+          {
+            "code": "47245",
+            "display": "EL BANCO"
+          },
+          {
+            "code": "47258",
+            "display": "EL PIÑÓN"
+          },
+          {
+            "code": "47268",
+            "display": "EL RETÉN"
+          },
+          {
+            "code": "47288",
+            "display": "FUNDACIÓN"
+          },
+          {
+            "code": "47318",
+            "display": "GUAMAL"
+          },
+          {
+            "code": "47460",
+            "display": "NUEVA GRANADA"
+          },
+          {
+            "code": "47541",
+            "display": "PEDRAZA"
+          },
+          {
+            "code": "47545",
+            "display": "PIJIÑO DEL CARMEN"
+          },
+          {
+            "code": "47551",
+            "display": "PIVIJAY"
+          },
+          {
+            "code": "47555",
+            "display": "PLATO"
+          },
+          {
+            "code": "47570",
+            "display": "PUEBLOVIEJO"
+          },
+          {
+            "code": "47605",
+            "display": "REMOLINO"
+          },
+          {
+            "code": "47660",
+            "display": "SABANAS DE SAN ÁNGEL"
+          },
+          {
+            "code": "47675",
+            "display": "SALAMINA"
+          },
+          {
+            "code": "47692",
+            "display": "SAN SEBASTIÁN DE BUENAVISTA"
+          },
+          {
+            "code": "47703",
+            "display": "SAN ZENÓN"
+          },
+          {
+            "code": "47707",
+            "display": "SANTA ANA"
+          },
+          {
+            "code": "47720",
+            "display": "SANTA BÁRBARA DE PINTO"
+          },
+          {
+            "code": "47745",
+            "display": "SITIONUEVO"
+          },
+          {
+            "code": "47798",
+            "display": "TENERIFE"
+          },
+          {
+            "code": "47960",
+            "display": "ZAPAYÁN"
+          },
+          {
+            "code": "47980",
+            "display": "ZONA BANANERA"
+          },
+          {
+            "code": "50001",
+            "display": "VILLAVICENCIO"
+          },
+          {
+            "code": "50006",
+            "display": "ACACÍAS"
+          },
+          {
+            "code": "50110",
+            "display": "BARRANCA DE UPÍA"
+          },
+          {
+            "code": "50124",
+            "display": "CABUYARO"
+          },
+          {
+            "code": "50150",
+            "display": "CASTILLA LA NUEVA"
+          },
+          {
+            "code": "50223",
+            "display": "CUBARRAL"
+          },
+          {
+            "code": "50226",
+            "display": "CUMARAL"
+          },
+          {
+            "code": "50245",
+            "display": "EL CALVARIO"
+          },
+          {
+            "code": "50251",
+            "display": "EL CASTILLO"
+          },
+          {
+            "code": "50270",
+            "display": "EL DORADO"
+          },
+          {
+            "code": "50287",
+            "display": "FUENTE DE ORO"
+          },
+          {
+            "code": "50313",
+            "display": "GRANADA"
+          },
+          {
+            "code": "50318",
+            "display": "GUAMAL"
+          },
+          {
+            "code": "50325",
+            "display": "MAPIRIPÁN"
+          },
+          {
+            "code": "50330",
+            "display": "MESETAS"
+          },
+          {
+            "code": "50350",
+            "display": "LA MACARENA"
+          },
+          {
+            "code": "50370",
+            "display": "URIBE"
+          },
+          {
+            "code": "50400",
+            "display": "LEJANÍAS"
+          },
+          {
+            "code": "50450",
+            "display": "PUERTO CONCORDIA"
+          },
+          {
+            "code": "50568",
+            "display": "PUERTO GAITÁN"
+          },
+          {
+            "code": "50573",
+            "display": "PUERTO LÓPEZ"
+          },
+          {
+            "code": "50577",
+            "display": "PUERTO LLERAS"
+          },
+          {
+            "code": "50590",
+            "display": "PUERTO RICO"
+          },
+          {
+            "code": "50606",
+            "display": "RESTREPO"
+          },
+          {
+            "code": "50680",
+            "display": "SAN CARLOS DE GUAROA"
+          },
+          {
+            "code": "50683",
+            "display": "SAN JUAN DE ARAMA"
+          },
+          {
+            "code": "50686",
+            "display": "SAN JUANITO"
+          },
+          {
+            "code": "50689",
+            "display": "SAN MARTÍN"
+          },
+          {
+            "code": "50711",
+            "display": "VISTAHERMOSA"
+          },
+          {
+            "code": "52001",
+            "display": "PASTO"
+          },
+          {
+            "code": "52019",
+            "display": "ALBÁN"
+          },
+          {
+            "code": "52022",
+            "display": "ALDANA"
+          },
+          {
+            "code": "52036",
+            "display": "ANCUYA"
+          },
+          {
+            "code": "52051",
+            "display": "ARBOLEDA"
+          },
+          {
+            "code": "52079",
+            "display": "BARBACOAS"
+          },
+          {
+            "code": "52083",
+            "display": "BELÉN"
+          },
+          {
+            "code": "52110",
+            "display": "BUESACO"
+          },
+          {
+            "code": "52203",
+            "display": "COLÓN"
+          },
+          {
+            "code": "52207",
+            "display": "CONSACÁ"
+          },
+          {
+            "code": "52210",
+            "display": "CONTADERO"
+          },
+          {
+            "code": "52215",
+            "display": "CÓRDOBA"
+          },
+          {
+            "code": "52224",
+            "display": "CUASPUD CARLOSAMA"
+          },
+          {
+            "code": "52227",
+            "display": "CUMBAL"
+          },
+          {
+            "code": "52233",
+            "display": "CUMBITARA"
+          },
+          {
+            "code": "52240",
+            "display": "CHACHAGÜÍ"
+          },
+          {
+            "code": "52250",
+            "display": "EL CHARCO"
+          },
+          {
+            "code": "52254",
+            "display": "EL PEÑOL"
+          },
+          {
+            "code": "52256",
+            "display": "EL ROSARIO"
+          },
+          {
+            "code": "52258",
+            "display": "EL TABLÓN DE GÓMEZ"
+          },
+          {
+            "code": "52260",
+            "display": "EL TAMBO"
+          },
+          {
+            "code": "52287",
+            "display": "FUNES"
+          },
+          {
+            "code": "52317",
+            "display": "GUACHUCAL"
+          },
+          {
+            "code": "52320",
+            "display": "GUAITARILLA"
+          },
+          {
+            "code": "52323",
+            "display": "GUALMATÁN"
+          },
+          {
+            "code": "52352",
+            "display": "ILES"
+          },
+          {
+            "code": "52354",
+            "display": "IMUÉS"
+          },
+          {
+            "code": "52356",
+            "display": "IPIALES"
+          },
+          {
+            "code": "52378",
+            "display": "LA CRUZ"
+          },
+          {
+            "code": "52381",
+            "display": "LA FLORIDA"
+          },
+          {
+            "code": "52385",
+            "display": "LA LLANADA"
+          },
+          {
+            "code": "52390",
+            "display": "LA TOLA"
+          },
+          {
+            "code": "52399",
+            "display": "LA UNIÓN"
+          },
+          {
+            "code": "52405",
+            "display": "LEIVA"
+          },
+          {
+            "code": "52411",
+            "display": "LINARES"
+          },
+          {
+            "code": "52418",
+            "display": "LOS ANDES"
+          },
+          {
+            "code": "52427",
+            "display": "MAGÜÍ"
+          },
+          {
+            "code": "52435",
+            "display": "MALLAMA"
+          },
+          {
+            "code": "52473",
+            "display": "MOSQUERA"
+          },
+          {
+            "code": "52480",
+            "display": "NARIÑO"
+          },
+          {
+            "code": "52490",
+            "display": "OLAYA HERRERA"
+          },
+          {
+            "code": "52506",
+            "display": "OSPINA"
+          },
+          {
+            "code": "52520",
+            "display": "FRANCISCO PIZARRO"
+          },
+          {
+            "code": "52540",
+            "display": "POLICARPA"
+          },
+          {
+            "code": "52560",
+            "display": "POTOSÍ"
+          },
+          {
+            "code": "52565",
+            "display": "PROVIDENCIA"
+          },
+          {
+            "code": "52573",
+            "display": "PUERRES"
+          },
+          {
+            "code": "52585",
+            "display": "PUPIALES"
+          },
+          {
+            "code": "52612",
+            "display": "RICAURTE"
+          },
+          {
+            "code": "52621",
+            "display": "ROBERTO PAYÁN"
+          },
+          {
+            "code": "52678",
+            "display": "SAMANIEGO"
+          },
+          {
+            "code": "52683",
+            "display": "SANDONÁ"
+          },
+          {
+            "code": "52685",
+            "display": "SAN BERNARDO"
+          },
+          {
+            "code": "52687",
+            "display": "SAN LORENZO"
+          },
+          {
+            "code": "52693",
+            "display": "SAN PABLO"
+          },
+          {
+            "code": "52694",
+            "display": "SAN PEDRO DE CARTAGO"
+          },
+          {
+            "code": "52696",
+            "display": "SANTA BÁRBARA"
+          },
+          {
+            "code": "52699",
+            "display": "SANTACRUZ"
+          },
+          {
+            "code": "52720",
+            "display": "SAPUYES"
+          },
+          {
+            "code": "52786",
+            "display": "TAMINANGO"
+          },
+          {
+            "code": "52788",
+            "display": "TANGUA"
+          },
+          {
+            "code": "52835",
+            "display": "SAN ANDRÉS DE TUMACO"
+          },
+          {
+            "code": "52838",
+            "display": "TÚQUERRES"
+          },
+          {
+            "code": "52885",
+            "display": "YACUANQUER"
+          },
+          {
+            "code": "54001",
+            "display": "SAN JOSÉ DE CÚCUTA"
+          },
+          {
+            "code": "54003",
+            "display": "ÁBREGO"
+          },
+          {
+            "code": "54051",
+            "display": "ARBOLEDAS"
+          },
+          {
+            "code": "54099",
+            "display": "BOCHALEMA"
+          },
+          {
+            "code": "54109",
+            "display": "BUCARASICA"
+          },
+          {
+            "code": "54125",
+            "display": "CÁCOTA"
+          },
+          {
+            "code": "54128",
+            "display": "CÁCHIRA"
+          },
+          {
+            "code": "54172",
+            "display": "CHINÁCOTA"
+          },
+          {
+            "code": "54174",
+            "display": "CHITAGÁ"
+          },
+          {
+            "code": "54206",
+            "display": "CONVENCIÓN"
+          },
+          {
+            "code": "54223",
+            "display": "CUCUTILLA"
+          },
+          {
+            "code": "54239",
+            "display": "DURANIA"
+          },
+          {
+            "code": "54245",
+            "display": "EL CARMEN"
+          },
+          {
+            "code": "54250",
+            "display": "EL TARRA"
+          },
+          {
+            "code": "54261",
+            "display": "EL ZULIA"
+          },
+          {
+            "code": "54313",
+            "display": "GRAMALOTE"
+          },
+          {
+            "code": "54344",
+            "display": "HACARÍ"
+          },
+          {
+            "code": "54347",
+            "display": "HERRÁN"
+          },
+          {
+            "code": "54377",
+            "display": "LABATECA"
+          },
+          {
+            "code": "54385",
+            "display": "LA ESPERANZA"
+          },
+          {
+            "code": "54398",
+            "display": "LA PLAYA"
+          },
+          {
+            "code": "54405",
+            "display": "LOS PATIOS"
+          },
+          {
+            "code": "54418",
+            "display": "LOURDES"
+          },
+          {
+            "code": "54480",
+            "display": "MUTISCUA"
+          },
+          {
+            "code": "54498",
+            "display": "OCAÑA"
+          },
+          {
+            "code": "54518",
+            "display": "PAMPLONA"
+          },
+          {
+            "code": "54520",
+            "display": "PAMPLONITA"
+          },
+          {
+            "code": "54553",
+            "display": "PUERTO SANTANDER"
+          },
+          {
+            "code": "54599",
+            "display": "RAGONVALIA"
+          },
+          {
+            "code": "54660",
+            "display": "SALAZAR"
+          },
+          {
+            "code": "54670",
+            "display": "SAN CALIXTO"
+          },
+          {
+            "code": "54673",
+            "display": "SAN CAYETANO"
+          },
+          {
+            "code": "54680",
+            "display": "SANTIAGO"
+          },
+          {
+            "code": "54720",
+            "display": "SARDINATA"
+          },
+          {
+            "code": "54743",
+            "display": "SILOS"
+          },
+          {
+            "code": "54800",
+            "display": "TEORAMA"
+          },
+          {
+            "code": "54810",
+            "display": "TIBÚ"
+          },
+          {
+            "code": "54820",
+            "display": "TOLEDO"
+          },
+          {
+            "code": "54871",
+            "display": "VILLA CARO"
+          },
+          {
+            "code": "54874",
+            "display": "VILLA DEL ROSARIO"
+          },
+          {
+            "code": "63001",
+            "display": "ARMENIA"
+          },
+          {
+            "code": "63111",
+            "display": "BUENAVISTA"
+          },
+          {
+            "code": "63130",
+            "display": "CALARCÁ"
+          },
+          {
+            "code": "63190",
+            "display": "CIRCASIA"
+          },
+          {
+            "code": "63212",
+            "display": "CÓRDOBA"
+          },
+          {
+            "code": "63272",
+            "display": "FILANDIA"
+          },
+          {
+            "code": "63302",
+            "display": "GÉNOVA"
+          },
+          {
+            "code": "63401",
+            "display": "LA TEBAIDA"
+          },
+          {
+            "code": "63470",
+            "display": "MONTENEGRO"
+          },
+          {
+            "code": "63548",
+            "display": "PIJAO"
+          },
+          {
+            "code": "63594",
+            "display": "QUIMBAYA"
+          },
+          {
+            "code": "63690",
+            "display": "SALENTO"
+          },
+          {
+            "code": "66001",
+            "display": "PEREIRA"
+          },
+          {
+            "code": "66045",
+            "display": "APÍA"
+          },
+          {
+            "code": "66075",
+            "display": "BALBOA"
+          },
+          {
+            "code": "66088",
+            "display": "BELÉN DE UMBRÍA"
+          },
+          {
+            "code": "66170",
+            "display": "DOSQUEBRADAS"
+          },
+          {
+            "code": "66318",
+            "display": "GUÁTICA"
+          },
+          {
+            "code": "66383",
+            "display": "LA CELIA"
+          },
+          {
+            "code": "66400",
+            "display": "LA VIRGINIA"
+          },
+          {
+            "code": "66440",
+            "display": "MARSELLA"
+          },
+          {
+            "code": "66456",
+            "display": "MISTRATÓ"
+          },
+          {
+            "code": "66572",
+            "display": "PUEBLO RICO"
+          },
+          {
+            "code": "66594",
+            "display": "QUINCHÍA"
+          },
+          {
+            "code": "66682",
+            "display": "SANTA ROSA DE CABAL"
+          },
+          {
+            "code": "66687",
+            "display": "SANTUARIO"
+          },
+          {
+            "code": "68001",
+            "display": "BUCARAMANGA"
+          },
+          {
+            "code": "68013",
+            "display": "AGUADA"
+          },
+          {
+            "code": "68020",
+            "display": "ALBANIA"
+          },
+          {
+            "code": "68051",
+            "display": "ARATOCA"
+          },
+          {
+            "code": "68077",
+            "display": "BARBOSA"
+          },
+          {
+            "code": "68079",
+            "display": "BARICHARA"
+          },
+          {
+            "code": "68081",
+            "display": "BARRANCABERMEJA"
+          },
+          {
+            "code": "68092",
+            "display": "BETULIA"
+          },
+          {
+            "code": "68101",
+            "display": "BOLÍVAR"
+          },
+          {
+            "code": "68121",
+            "display": "CABRERA"
+          },
+          {
+            "code": "68132",
+            "display": "CALIFORNIA"
+          },
+          {
+            "code": "68147",
+            "display": "CAPITANEJO"
+          },
+          {
+            "code": "68152",
+            "display": "CARCASÍ"
+          },
+          {
+            "code": "68160",
+            "display": "CEPITÁ"
+          },
+          {
+            "code": "68162",
+            "display": "CERRITO"
+          },
+          {
+            "code": "68167",
+            "display": "CHARALÁ"
+          },
+          {
+            "code": "68169",
+            "display": "CHARTA"
+          },
+          {
+            "code": "68176",
+            "display": "CHIMA"
+          },
+          {
+            "code": "68179",
+            "display": "CHIPATÁ"
+          },
+          {
+            "code": "68190",
+            "display": "CIMITARRA"
+          },
+          {
+            "code": "68207",
+            "display": "CONCEPCIÓN"
+          },
+          {
+            "code": "68209",
+            "display": "CONFINES"
+          },
+          {
+            "code": "68211",
+            "display": "CONTRATACIÓN"
+          },
+          {
+            "code": "68217",
+            "display": "COROMORO"
+          },
+          {
+            "code": "68229",
+            "display": "CURITÍ"
+          },
+          {
+            "code": "68235",
+            "display": "EL CARMEN DE CHUCURÍ"
+          },
+          {
+            "code": "68245",
+            "display": "EL GUACAMAYO"
+          },
+          {
+            "code": "68250",
+            "display": "EL PEÑÓN"
+          },
+          {
+            "code": "68255",
+            "display": "EL PLAYÓN"
+          },
+          {
+            "code": "68264",
+            "display": "ENCINO"
+          },
+          {
+            "code": "68266",
+            "display": "ENCISO"
+          },
+          {
+            "code": "68271",
+            "display": "FLORIÁN"
+          },
+          {
+            "code": "68276",
+            "display": "FLORIDABLANCA"
+          },
+          {
+            "code": "68296",
+            "display": "GALÁN"
+          },
+          {
+            "code": "68298",
+            "display": "GÁMBITA"
+          },
+          {
+            "code": "68307",
+            "display": "GIRÓN"
+          },
+          {
+            "code": "68318",
+            "display": "GUACA"
+          },
+          {
+            "code": "68320",
+            "display": "GUADALUPE"
+          },
+          {
+            "code": "68322",
+            "display": "GUAPOTÁ"
+          },
+          {
+            "code": "68324",
+            "display": "GUAVATÁ"
+          },
+          {
+            "code": "68327",
+            "display": "GÜEPSA"
+          },
+          {
+            "code": "68344",
+            "display": "HATO"
+          },
+          {
+            "code": "68368",
+            "display": "JESÚS MARÍA"
+          },
+          {
+            "code": "68370",
+            "display": "JORDÁN"
+          },
+          {
+            "code": "68377",
+            "display": "LA BELLEZA"
+          },
+          {
+            "code": "68385",
+            "display": "LANDÁZURI"
+          },
+          {
+            "code": "68397",
+            "display": "LA PAZ"
+          },
+          {
+            "code": "68406",
+            "display": "LEBRIJA"
+          },
+          {
+            "code": "68418",
+            "display": "LOS SANTOS"
+          },
+          {
+            "code": "68425",
+            "display": "MACARAVITA"
+          },
+          {
+            "code": "68432",
+            "display": "MÁLAGA"
+          },
+          {
+            "code": "68444",
+            "display": "MATANZA"
+          },
+          {
+            "code": "68464",
+            "display": "MOGOTES"
+          },
+          {
+            "code": "68468",
+            "display": "MOLAGAVITA"
+          },
+          {
+            "code": "68498",
+            "display": "OCAMONTE"
+          },
+          {
+            "code": "68500",
+            "display": "OIBA"
+          },
+          {
+            "code": "68502",
+            "display": "ONZAGA"
+          },
+          {
+            "code": "68522",
+            "display": "PALMAR"
+          },
+          {
+            "code": "68524",
+            "display": "PALMAS DEL SOCORRO"
+          },
+          {
+            "code": "68533",
+            "display": "PÁRAMO"
+          },
+          {
+            "code": "68547",
+            "display": "PIEDECUESTA"
+          },
+          {
+            "code": "68549",
+            "display": "PINCHOTE"
+          },
+          {
+            "code": "68572",
+            "display": "PUENTE NACIONAL"
+          },
+          {
+            "code": "68573",
+            "display": "PUERTO PARRA"
+          },
+          {
+            "code": "68575",
+            "display": "PUERTO WILCHES"
+          },
+          {
+            "code": "68615",
+            "display": "RIONEGRO"
+          },
+          {
+            "code": "68655",
+            "display": "SABANA DE TORRES"
+          },
+          {
+            "code": "68669",
+            "display": "SAN ANDRÉS"
+          },
+          {
+            "code": "68673",
+            "display": "SAN BENITO"
+          },
+          {
+            "code": "68679",
+            "display": "SAN GIL"
+          },
+          {
+            "code": "68682",
+            "display": "SAN JOAQUÍN"
+          },
+          {
+            "code": "68684",
+            "display": "SAN JOSÉ DE MIRANDA"
+          },
+          {
+            "code": "68686",
+            "display": "SAN MIGUEL"
+          },
+          {
+            "code": "68689",
+            "display": "SAN VICENTE DE CHUCURÍ"
+          },
+          {
+            "code": "68705",
+            "display": "SANTA BÁRBARA"
+          },
+          {
+            "code": "68720",
+            "display": "SANTA HELENA DEL OPÓN"
+          },
+          {
+            "code": "68745",
+            "display": "SIMACOTA"
+          },
+          {
+            "code": "68755",
+            "display": "SOCORRO"
+          },
+          {
+            "code": "68770",
+            "display": "SUAITA"
+          },
+          {
+            "code": "68773",
+            "display": "SUCRE"
+          },
+          {
+            "code": "68780",
+            "display": "SURATÁ"
+          },
+          {
+            "code": "68820",
+            "display": "TONA"
+          },
+          {
+            "code": "68855",
+            "display": "VALLE DE SAN JOSÉ"
+          },
+          {
+            "code": "68861",
+            "display": "VÉLEZ"
+          },
+          {
+            "code": "68867",
+            "display": "VETAS"
+          },
+          {
+            "code": "68872",
+            "display": "VILLANUEVA"
+          },
+          {
+            "code": "68895",
+            "display": "ZAPATOCA"
+          },
+          {
+            "code": "70001",
+            "display": "SINCELEJO"
+          },
+          {
+            "code": "70110",
+            "display": "BUENAVISTA"
+          },
+          {
+            "code": "70124",
+            "display": "CAIMITO"
+          },
+          {
+            "code": "70204",
+            "display": "COLOSÓ"
+          },
+          {
+            "code": "70215",
+            "display": "COROZAL"
+          },
+          {
+            "code": "70221",
+            "display": "COVEÑAS"
+          },
+          {
+            "code": "70230",
+            "display": "CHALÁN"
+          },
+          {
+            "code": "70233",
+            "display": "EL ROBLE"
+          },
+          {
+            "code": "70235",
+            "display": "GALERAS"
+          },
+          {
+            "code": "70265",
+            "display": "GUARANDA"
+          },
+          {
+            "code": "70400",
+            "display": "LA UNIÓN"
+          },
+          {
+            "code": "70418",
+            "display": "LOS PALMITOS"
+          },
+          {
+            "code": "70429",
+            "display": "MAJAGUAL"
+          },
+          {
+            "code": "70473",
+            "display": "MORROA"
+          },
+          {
+            "code": "70508",
+            "display": "OVEJAS"
+          },
+          {
+            "code": "70523",
+            "display": "PALMITO"
+          },
+          {
+            "code": "70670",
+            "display": "SAMPUÉS"
+          },
+          {
+            "code": "70678",
+            "display": "SAN BENITO ABAD"
+          },
+          {
+            "code": "70702",
+            "display": "SAN JUAN DE BETULIA"
+          },
+          {
+            "code": "70708",
+            "display": "SAN MARCOS"
+          },
+          {
+            "code": "70713",
+            "display": "SAN ONOFRE"
+          },
+          {
+            "code": "70717",
+            "display": "SAN PEDRO"
+          },
+          {
+            "code": "70742",
+            "display": "SAN LUIS DE SINCÉ"
+          },
+          {
+            "code": "70771",
+            "display": "SUCRE"
+          },
+          {
+            "code": "70820",
+            "display": "SANTIAGO DE TOLÚ"
+          },
+          {
+            "code": "70823",
+            "display": "SAN JOSÉ DE TOLUVIEJO"
+          },
+          {
+            "code": "73001",
+            "display": "IBAGUÉ"
+          },
+          {
+            "code": "73024",
+            "display": "ALPUJARRA"
+          },
+          {
+            "code": "73026",
+            "display": "ALVARADO"
+          },
+          {
+            "code": "73030",
+            "display": "AMBALEMA"
+          },
+          {
+            "code": "73043",
+            "display": "ANZOÁTEGUI"
+          },
+          {
+            "code": "73055",
+            "display": "ARMERO"
+          },
+          {
+            "code": "73067",
+            "display": "ATACO"
+          },
+          {
+            "code": "73124",
+            "display": "CAJAMARCA"
+          },
+          {
+            "code": "73148",
+            "display": "CARMEN DE APICALÁ"
+          },
+          {
+            "code": "73152",
+            "display": "CASABIANCA"
+          },
+          {
+            "code": "73168",
+            "display": "CHAPARRAL"
+          },
+          {
+            "code": "73200",
+            "display": "COELLO"
+          },
+          {
+            "code": "73217",
+            "display": "COYAIMA"
+          },
+          {
+            "code": "73226",
+            "display": "CUNDAY"
+          },
+          {
+            "code": "73236",
+            "display": "DOLORES"
+          },
+          {
+            "code": "73268",
+            "display": "ESPINAL"
+          },
+          {
+            "code": "73270",
+            "display": "FALAN"
+          },
+          {
+            "code": "73275",
+            "display": "FLANDES"
+          },
+          {
+            "code": "73283",
+            "display": "FRESNO"
+          },
+          {
+            "code": "73319",
+            "display": "GUAMO"
+          },
+          {
+            "code": "73347",
+            "display": "HERVEO"
+          },
+          {
+            "code": "73349",
+            "display": "HONDA"
+          },
+          {
+            "code": "73352",
+            "display": "ICONONZO"
+          },
+          {
+            "code": "73408",
+            "display": "LÉRIDA"
+          },
+          {
+            "code": "73411",
+            "display": "LÍBANO"
+          },
+          {
+            "code": "73443",
+            "display": "SAN SEBASTIÁN DE MARIQUITA"
+          },
+          {
+            "code": "73449",
+            "display": "MELGAR"
+          },
+          {
+            "code": "73461",
+            "display": "MURILLO"
+          },
+          {
+            "code": "73483",
+            "display": "NATAGAIMA"
+          },
+          {
+            "code": "73504",
+            "display": "ORTEGA"
+          },
+          {
+            "code": "73520",
+            "display": "PALOCABILDO"
+          },
+          {
+            "code": "73547",
+            "display": "PIEDRAS"
+          },
+          {
+            "code": "73555",
+            "display": "PLANADAS"
+          },
+          {
+            "code": "73563",
+            "display": "PRADO"
+          },
+          {
+            "code": "73585",
+            "display": "PURIFICACIÓN"
+          },
+          {
+            "code": "73616",
+            "display": "RIOBLANCO"
+          },
+          {
+            "code": "73622",
+            "display": "RONCESVALLES"
+          },
+          {
+            "code": "73624",
+            "display": "ROVIRA"
+          },
+          {
+            "code": "73671",
+            "display": "SALDAÑA"
+          },
+          {
+            "code": "73675",
+            "display": "SAN ANTONIO"
+          },
+          {
+            "code": "73678",
+            "display": "SAN LUIS"
+          },
+          {
+            "code": "73686",
+            "display": "SANTA ISABEL"
+          },
+          {
+            "code": "73770",
+            "display": "SUÁREZ"
+          },
+          {
+            "code": "73854",
+            "display": "VALLE DE SAN JUAN"
+          },
+          {
+            "code": "73861",
+            "display": "VENADILLO"
+          },
+          {
+            "code": "73870",
+            "display": "VILLAHERMOSA"
+          },
+          {
+            "code": "73873",
+            "display": "VILLARRICA"
+          },
+          {
+            "code": "76001",
+            "display": "SANTIAGO DE CALI"
+          },
+          {
+            "code": "76020",
+            "display": "ALCALÁ"
+          },
+          {
+            "code": "76036",
+            "display": "ANDALUCÍA"
+          },
+          {
+            "code": "76041",
+            "display": "ANSERMANUEVO"
+          },
+          {
+            "code": "76054",
+            "display": "ARGELIA"
+          },
+          {
+            "code": "76100",
+            "display": "BOLÍVAR"
+          },
+          {
+            "code": "76109",
+            "display": "BUENAVENTURA"
+          },
+          {
+            "code": "76111",
+            "display": "GUADALAJARA DE BUGA"
+          },
+          {
+            "code": "76113",
+            "display": "BUGALAGRANDE"
+          },
+          {
+            "code": "76122",
+            "display": "CAICEDONIA"
+          },
+          {
+            "code": "76126",
+            "display": "CALIMA"
+          },
+          {
+            "code": "76130",
+            "display": "CANDELARIA"
+          },
+          {
+            "code": "76147",
+            "display": "CARTAGO"
+          },
+          {
+            "code": "76233",
+            "display": "DAGUA"
+          },
+          {
+            "code": "76243",
+            "display": "EL ÁGUILA"
+          },
+          {
+            "code": "76246",
+            "display": "EL CAIRO"
+          },
+          {
+            "code": "76248",
+            "display": "EL CERRITO"
+          },
+          {
+            "code": "76250",
+            "display": "EL DOVIO"
+          },
+          {
+            "code": "76275",
+            "display": "FLORIDA"
+          },
+          {
+            "code": "76306",
+            "display": "GINEBRA"
+          },
+          {
+            "code": "76318",
+            "display": "GUACARÍ"
+          },
+          {
+            "code": "76364",
+            "display": "JAMUNDÍ"
+          },
+          {
+            "code": "76377",
+            "display": "LA CUMBRE"
+          },
+          {
+            "code": "76400",
+            "display": "LA UNIÓN"
+          },
+          {
+            "code": "76403",
+            "display": "LA VICTORIA"
+          },
+          {
+            "code": "76497",
+            "display": "OBANDO"
+          },
+          {
+            "code": "76520",
+            "display": "PALMIRA"
+          },
+          {
+            "code": "76563",
+            "display": "PRADERA"
+          },
+          {
+            "code": "76606",
+            "display": "RESTREPO"
+          },
+          {
+            "code": "76616",
+            "display": "RIOFRÍO"
+          },
+          {
+            "code": "76622",
+            "display": "ROLDANILLO"
+          },
+          {
+            "code": "76670",
+            "display": "SAN PEDRO"
+          },
+          {
+            "code": "76736",
+            "display": "SEVILLA"
+          },
+          {
+            "code": "76823",
+            "display": "TORO"
+          },
+          {
+            "code": "76828",
+            "display": "TRUJILLO"
+          },
+          {
+            "code": "76834",
+            "display": "TULUÁ"
+          },
+          {
+            "code": "76845",
+            "display": "ULLOA"
+          },
+          {
+            "code": "76863",
+            "display": "VERSALLES"
+          },
+          {
+            "code": "76869",
+            "display": "VIJES"
+          },
+          {
+            "code": "76890",
+            "display": "YOTOCO"
+          },
+          {
+            "code": "76892",
+            "display": "YUMBO"
+          },
+          {
+            "code": "76895",
+            "display": "ZARZAL"
+          },
+          {
+            "code": "81001",
+            "display": "ARAUCA"
+          },
+          {
+            "code": "81065",
+            "display": "ARAUQUITA"
+          },
+          {
+            "code": "81220",
+            "display": "CRAVO NORTE"
+          },
+          {
+            "code": "81300",
+            "display": "FORTUL"
+          },
+          {
+            "code": "81591",
+            "display": "PUERTO RONDÓN"
+          },
+          {
+            "code": "81736",
+            "display": "SARAVENA"
+          },
+          {
+            "code": "81794",
+            "display": "TAME"
+          },
+          {
+            "code": "85001",
+            "display": "YOPAL"
+          },
+          {
+            "code": "85010",
+            "display": "AGUAZUL"
+          },
+          {
+            "code": "85015",
+            "display": "CHÁMEZA"
+          },
+          {
+            "code": "85125",
+            "display": "HATO COROZAL"
+          },
+          {
+            "code": "85136",
+            "display": "LA SALINA"
+          },
+          {
+            "code": "85139",
+            "display": "MANÍ"
+          },
+          {
+            "code": "85162",
+            "display": "MONTERREY"
+          },
+          {
+            "code": "85225",
+            "display": "NUNCHÍA"
+          },
+          {
+            "code": "85230",
+            "display": "OROCUÉ"
+          },
+          {
+            "code": "85250",
+            "display": "PAZ DE ARIPORO"
+          },
+          {
+            "code": "85263",
+            "display": "PORE"
+          },
+          {
+            "code": "85279",
+            "display": "RECETOR"
+          },
+          {
+            "code": "85300",
+            "display": "SABANALARGA"
+          },
+          {
+            "code": "85315",
+            "display": "SÁCAMA"
+          },
+          {
+            "code": "85325",
+            "display": "SAN LUIS DE PALENQUE"
+          },
+          {
+            "code": "85400",
+            "display": "TÁMARA"
+          },
+          {
+            "code": "85410",
+            "display": "TAURAMENA"
+          },
+          {
+            "code": "85430",
+            "display": "TRINIDAD"
+          },
+          {
+            "code": "85440",
+            "display": "VILLANUEVA"
+          },
+          {
+            "code": "86001",
+            "display": "MOCOA"
+          },
+          {
+            "code": "86219",
+            "display": "COLÓN"
+          },
+          {
+            "code": "86320",
+            "display": "ORITO"
+          },
+          {
+            "code": "86568",
+            "display": "PUERTO ASÍS"
+          },
+          {
+            "code": "86569",
+            "display": "PUERTO CAICEDO"
+          },
+          {
+            "code": "86571",
+            "display": "PUERTO GUZMÁN"
+          },
+          {
+            "code": "86573",
+            "display": "PUERTO LEGUÍZAMO"
+          },
+          {
+            "code": "86749",
+            "display": "SIBUNDOY"
+          },
+          {
+            "code": "86755",
+            "display": "SAN FRANCISCO"
+          },
+          {
+            "code": "86757",
+            "display": "SAN MIGUEL"
+          },
+          {
+            "code": "86760",
+            "display": "SANTIAGO"
+          },
+          {
+            "code": "86865",
+            "display": "VALLE DEL GUAMUEZ"
+          },
+          {
+            "code": "86885",
+            "display": "VILLAGARZÓN"
+          },
+          {
+            "code": "88001",
+            "display": "SAN ANDRÉS"
+          },
+          {
+            "code": "88564",
+            "display": "PROVIDENCIA"
+          },
+          {
+            "code": "91001",
+            "display": "LETICIA"
+          },
+          {
+            "code": "91263",
+            "display": "EL ENCANTO"
+          },
+          {
+            "code": "91405",
+            "display": "LA CHORRERA"
+          },
+          {
+            "code": "91407",
+            "display": "LA PEDRERA"
+          },
+          {
+            "code": "91430",
+            "display": "LA VICTORIA"
+          },
+          {
+            "code": "91460",
+            "display": "MIRITÍ - PARANÁ"
+          },
+          {
+            "code": "91530",
+            "display": "PUERTO ALEGRÍA"
+          },
+          {
+            "code": "91536",
+            "display": "PUERTO ARICA"
+          },
+          {
+            "code": "91540",
+            "display": "PUERTO NARIÑO"
+          },
+          {
+            "code": "91669",
+            "display": "PUERTO SANTANDER"
+          },
+          {
+            "code": "91798",
+            "display": "TARAPACÁ"
+          },
+          {
+            "code": "94001",
+            "display": "INÍRIDA"
+          },
+          {
+            "code": "94343",
+            "display": "BARRANCOMINAS"
+          },
+          {
+            "code": "94883",
+            "display": "SAN FELIPE"
+          },
+          {
+            "code": "94884",
+            "display": "PUERTO COLOMBIA"
+          },
+          {
+            "code": "94885",
+            "display": "LA GUADALUPE"
+          },
+          {
+            "code": "94886",
+            "display": "CACAHUAL"
+          },
+          {
+            "code": "94887",
+            "display": "PANA PANA"
+          },
+          {
+            "code": "94888",
+            "display": "MORICHAL"
+          },
+          {
+            "code": "95001",
+            "display": "SAN JOSÉ DEL GUAVIARE"
+          },
+          {
+            "code": "95015",
+            "display": "CALAMAR"
+          },
+          {
+            "code": "95025",
+            "display": "EL RETORNO"
+          },
+          {
+            "code": "95200",
+            "display": "MIRAFLORES"
+          },
+          {
+            "code": "97001",
+            "display": "MITÚ"
+          },
+          {
+            "code": "97161",
+            "display": "CARURÚ"
+          },
+          {
+            "code": "97511",
+            "display": "PACOA"
+          },
+          {
+            "code": "97666",
+            "display": "TARAIRA"
+          },
+          {
+            "code": "97777",
+            "display": "PAPUNAHUA"
+          },
+          {
+            "code": "97889",
+            "display": "YAVARATÉ"
+          },
+          {
+            "code": "99001",
+            "display": "PUERTO CARREÑO"
+          },
+          {
+            "code": "99524",
+            "display": "LA PRIMAVERA"
+          },
+          {
+            "code": "99624",
+            "display": "SANTA ROSALÍA"
+          },
+          {
+            "code": "99773",
+            "display": "CUMARIBO"
+          }
+        ]
+      }
+    ]
+  }
+}

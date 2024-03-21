@@ -1,0 +1,202 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "DivipolaDepartments",
+  "id": "divipola-departments",
+  "title": "ValueSet: DIVIPOLA Departments",
+  "description": "Set of coded values for departments in Colombia, according to the DIVIPOLA code system. [ES: Conjunto de valores codificados para los departamentos de Colombia, según la codificación DIVIPOLA.]",
+  "url": "http://fhir.example.com/ValueSet/DivipolaDepartments",
+  "version": "4.0.1",
+  "date": "2023-07-30",
+  "publisher": "DANE",
+  "contact": [
+    {
+      "name": "Departamento Administrativo Nacional de Estadística (DANE)",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.dane.gov.co/files/sen/nomenclatura/ciuo/CIUO_88A_C_2006.pdf"
+        },
+        {
+          "system": "phone",
+          "value": "+57(601) 597-8300"
+        },
+        {
+          "system": "phone",
+          "value": "+57(601) 597-8398"
+        }
+      ]
+    },
+    {
+      "name": "HL7 Colombia",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://hl7co.org/"
+        },
+        {
+          "system": "phone",
+          "value": "+57(320) 230-6178 "
+        },
+        {
+          "system": "email",
+          "value": "info@hl7co.org"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CO",
+          "system": "urn:iso:std:iso:3166:-2",
+          "display": "Colombia"
+        }
+      ]
+    }
+  ],
+  "purpose": "This set of values of the DIVIPOLA code system contains the nomenclators of departments (territorial entities) within the jurisdiction of Colombia, used in the *FHIR Extensions* associated with the *Address* data type.\r\n\r\n[ES: Este conjunto de valores del sistema de codificación DIVIPOLA contiene los nomencladores de departamentos (entidades territoriales) dentro de la jurisdicción de Colombia, utilizado en las *Extensiones FHIR* asociadas con el tipo de dato *Address*.]",
+  "copyright": "DANE, CCBY4.0 1967+",
+  "compose": {
+    "include": [
+      {
+        "system": "http://fhir.example.com/CodeSystem/DIVIPOLA",
+        "concept": [
+          {
+            "code": "05",
+            "display": "ANTIOQUIA"
+          },
+          {
+            "code": "08",
+            "display": "ATLÁNTICO"
+          },
+          {
+            "code": "11",
+            "display": "BOGOTÁ, D.C."
+          },
+          {
+            "code": "13",
+            "display": "BOLÍVAR"
+          },
+          {
+            "code": "15",
+            "display": "BOYACÁ"
+          },
+          {
+            "code": "17",
+            "display": "CALDAS"
+          },
+          {
+            "code": "18",
+            "display": "CAQUETÁ"
+          },
+          {
+            "code": "19",
+            "display": "CAUCA"
+          },
+          {
+            "code": "20",
+            "display": "CESAR"
+          },
+          {
+            "code": "23",
+            "display": "CÓRDOBA"
+          },
+          {
+            "code": "25",
+            "display": "CUNDINAMARCA"
+          },
+          {
+            "code": "27",
+            "display": "CHOCÓ"
+          },
+          {
+            "code": "41",
+            "display": "HUILA"
+          },
+          {
+            "code": "44",
+            "display": "LA GUAJIRA"
+          },
+          {
+            "code": "47",
+            "display": "MAGDALENA"
+          },
+          {
+            "code": "50",
+            "display": "META"
+          },
+          {
+            "code": "52",
+            "display": "NARIÑO"
+          },
+          {
+            "code": "54",
+            "display": "NORTE DE SANTANDER"
+          },
+          {
+            "code": "63",
+            "display": "QUINDÍO"
+          },
+          {
+            "code": "66",
+            "display": "RISARALDA"
+          },
+          {
+            "code": "68",
+            "display": "SANTANDER"
+          },
+          {
+            "code": "70",
+            "display": "SUCRE"
+          },
+          {
+            "code": "73",
+            "display": "TOLIMA"
+          },
+          {
+            "code": "76",
+            "display": "VALLE DEL CAUCA"
+          },
+          {
+            "code": "81",
+            "display": "ARAUCA"
+          },
+          {
+            "code": "85",
+            "display": "CASANARE"
+          },
+          {
+            "code": "86",
+            "display": "PUTUMAYO"
+          },
+          {
+            "code": "88",
+            "display": "ARCHIPIÉLAGO DE SAN ANDRÉS, PROVIDENCIA Y SANTA CATALINA"
+          },
+          {
+            "code": "91",
+            "display": "AMAZONAS"
+          },
+          {
+            "code": "94",
+            "display": "GUAINÍA"
+          },
+          {
+            "code": "95",
+            "display": "GUAVIARE"
+          },
+          {
+            "code": "97",
+            "display": "VAUPÉS"
+          },
+          {
+            "code": "99",
+            "display": "VICHADA"
+          }
+        ]
+      }
+    ]
+  }
+}
