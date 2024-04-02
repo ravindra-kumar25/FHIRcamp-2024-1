@@ -1,0 +1,114 @@
+{
+	"resourceType": "Condition",
+	"id": "46001358-ad82-4229-99a0-0e38d21793a4",
+	"clinicalStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-clinical",
+				"code": "resolved",
+				"display": "Resolved"
+			}
+		]
+	},
+	"verificationStatus": {
+		"coding": [
+			{
+				"system": "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+				"code": "confirmed",
+				"display": "Confirmed"
+			}
+		]
+	},
+	"category": [
+		{
+			"coding": [
+				{
+					"system": "http://terminology.hl7.org/CodeSystem/condition-category",
+					"code": "encounter-diagnosis",
+					"display": "Encounter Diagnosis"
+				}
+			]
+		}
+	],
+	"severity": {
+		"coding": [
+			{
+				"system": "http://snomed.info/sct",
+				"code": "6736007",
+				"display": "Moderate"
+			}
+		]
+	},
+	"code": {
+		"coding": [
+			{
+				"system": "http://hl7.org/fhir/sid/icd-10",
+				"code": "A059",
+				"display": "INTOXICACION ALIMENTARIA BACTERIANA, NO ESPECIFICADA"
+			}
+		]
+	},
+	"subject": {
+		"reference": "Patient/54ac308f-5964-4298-8f7c-93538db8a1f4"
+	},
+	"onsetDateTime": "2022-03-17",
+	"abatementDateTime": "2022-03-25",
+	"recordedDate": "2022-03-20",
+	"asserter": {
+		"reference": "Practitioner/92d1c33d-169c-43dc-9fec-aad3f3ef3e26"
+	},
+	"evidence": [
+		{
+			"code": [
+				{
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "422587007",
+							"display": "náuseas"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": [
+				{
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "249497008",
+							"display": "síntoma de vómito"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": [
+				{
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "271681002",
+							"display": "dolor de estómago"
+						}
+					]
+				}
+			]
+		},
+		{
+			"code": [
+				{
+					"coding": [
+						{
+							"system": "http://snomed.info/sct",
+							"code": "62315008",
+							"display": "diarrea"
+						}
+					]
+				}
+			]
+		}
+	]
+}
